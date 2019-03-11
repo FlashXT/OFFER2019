@@ -9,9 +9,6 @@ public class QuickSort {
         int [] arr = {12,10,38,42,75,68,54,9,40};
         Quicksort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
-//        int index = partitionBorder(arr,0,arr.length-1);
-//        System.out.println(Arrays.toString(arr));
-//        System.out.println(index);
     }
 
     //快速排序
@@ -19,13 +16,13 @@ public class QuickSort {
         if(start >= end) return ;
         //随机选择枢轴,默认第一个元素为枢轴
         swap(arr,start+(int)(Math.random()*(end-start)),start);
-//        int pivot = partitionBorder(arr,start,end); //边界法计算枢轴位置
-//        int pivot = partition(arr,start,end);
+//        int pivot = partitionBorder(arr,start,end);   //边界法计算枢轴位置
+//        int pivot = partition(arr,start,end);         //经典方法计算枢轴位置
+
 //        Quicksort(arr,start,pivot-1);
 //        Quicksort(arr,pivot+1,end);
 
-        int[] pivot = partitionFlag(arr,start,end);
-
+        int[] pivot = partitionFlag(arr,start,end);     //荷兰国旗法计算枢轴位置
         Quicksort(arr,start,pivot[0]-1);
         Quicksort(arr,pivot[1]+1,end);
 

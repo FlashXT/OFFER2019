@@ -7,9 +7,10 @@ public class FlagOfNetherland {
 
         int [] arr = {1,2,4,38,34,4,4,4,75,54,9,4};
         Quicksort(arr,0, arr.length-1);
+        System.out.println(Arrays.toString(arr));
     }
 
-    //swapint [] arr = {12,10,38,42,75,68,54,9,40};
+    //swap
     public static void swap(int [] arr,int i,int j){
         int temp = arr[i];
         arr[i] = arr[j];
@@ -50,4 +51,3 @@ public class FlagOfNetherland {
         return new int[]{lessBorder+1,moreBorder-1};
     }
 }
-

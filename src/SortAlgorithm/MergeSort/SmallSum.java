@@ -22,14 +22,12 @@ public class SmallSum {
         int [] temp = new int[end-start+1];
         while(i <= mid && j <= end){
             if(arr[i] < arr[j]){
-                res+=arr[i]*(end+1 - j);
-                i++;
+                res+=arr[i]*(end + 1 - j);
                 temp[k++] = arr[i++];
             }
 
             else{
                 temp[k++] = arr[j++];
-                j++;
             }
         }
 
