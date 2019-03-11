@@ -1,4 +1,4 @@
-package SortAlgorithm;
+package SortAlgorithm.MergeSort;
 
 public class SmallSum {
 
@@ -10,7 +10,8 @@ public class SmallSum {
     public static int MergeSort (int [] arr,int start,int end){
         if(start == end) return 0;
         int mid = start+(end-start)/2;
-        return MergeSort(arr,start,mid)+ MergeSort(arr,mid+1,end)+Merge(arr,start,mid,end);
+        return  MergeSort(arr,start,mid)+
+                MergeSort(arr,mid+1,end)+Merge(arr,start,mid,end);
 
     }
     public static int Merge(int []arr,int start,int mid,int end){
