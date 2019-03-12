@@ -15,7 +15,7 @@ import java.util.*;
  *          ②   log(b,a) == d -> T(N),复杂度为 N^d * logN
  *          ③   log(b,a) < d -> T(N) ,复杂度为 N^d
  *        这是一个估计递归行为复杂度的公式，但是要求递归行为中，每次递归的规模是固定的。
- *
+ *拓展：http://www.gocalf.com/blog/algorithm-complexity-and-master-theorem.html
  * 应用 ： 求小和问题，逆序对问题
  * Author:FlashXT;
  * Date:2019.3.11,Monday;
