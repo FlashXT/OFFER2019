@@ -1,4 +1,4 @@
-package BucketSort;
+package SortAlgorithm.BucketSort;
 
 public class RadixSort {
 
