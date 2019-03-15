@@ -20,7 +20,7 @@ public class Matrix4 {
                             {4,4,4,8},
                             {5,7,7,9}
                        };
-        System.out.println(isInMstarix(arr,6));
+        System.out.println(isInMstarix(arr,4));
 
     }
     public static boolean isInMstarix(int[][] arr,int key){
