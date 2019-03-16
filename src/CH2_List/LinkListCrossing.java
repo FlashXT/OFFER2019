@@ -47,6 +47,7 @@ public class LinkListCrossing {
 //        makeCircle(list1,8);
 //        makeCircle(list2,34);
 //        System.out.println(isListCrossing(list1,list2));
+
         //testcase5:两个链表均有环,相交（>--O结构）
 //        makeNoLoopCrossing(list1,list2,8,true);
 //        System.out.println(isListCrossing(list1,list2));
@@ -122,6 +123,7 @@ public class LinkListCrossing {
                 }
             }
 
+            //仅在此处ptr1的终止条件不同于无环时的判断
             while(ptr1 != loopnode1){
                 if( ptr1 == ptr2) return ptr1;
                 ptr1 = ptr1.next;
@@ -174,6 +176,7 @@ public class LinkListCrossing {
 
     //测试函数：链表相交(list1 和 list2 在list1 值为 item 的结点处相交)
     public static void makeNoLoopCrossing(LinkedList list1,LinkedList list2, int item,boolean loop){
+        //loop 指示list1是否成环
         if (loop)
             makeCircle(list1,item);
         Node ptr1 = list1.head;
