@@ -1,4 +1,4 @@
-package CH4_Stack_Queue;
+package CH4_StackQueue;
 
 public class ArrayQueue<Item>  {
     private Item [] queue;

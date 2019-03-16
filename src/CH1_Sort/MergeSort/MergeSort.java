@@ -1,4 +1,4 @@
-package CH1_SortAlgorithm.MergeSort;
+package CH1_Sort.MergeSort;
 import java.util.*;
 
 /******************************************************************************

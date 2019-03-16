@@ -1,4 +1,4 @@
-package CH1_SortAlgorithm.BucketSort;
+package CH1_Sort.BucketSort;
 
 public class BucketSort {
 

@@ -1,4 +1,4 @@
-package CH1_SortAlgorithm.HeapSort;
+package CH1_Sort.HeapSort;
 
 import java.util.Arrays;
 /************************************************************************************

@@ -1,4 +1,4 @@
-package CH1_SortAlgorithm.BucketSort;
+package CH1_Sort.BucketSort;
 //求一列数组排好序后的相邻数字间的最大差值；
 public class MaxGap {
     public static void main(String [] args){

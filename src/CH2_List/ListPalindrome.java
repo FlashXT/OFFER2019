@@ -1,6 +1,6 @@
 package CH2_List;
 
-import CH4_Stack_Queue.ArrayStack;
+import CH4_StackQueue.ArrayStack;
 
 import java.util.Iterator;
 

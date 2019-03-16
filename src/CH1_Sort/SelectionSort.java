@@ -1,4 +1,4 @@
-package CH1_SortAlgorithm;
+package CH1_Sort;
 
 import java.util.Arrays;
 /********************************************************************************

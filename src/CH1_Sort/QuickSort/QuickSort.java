@@ -1,4 +1,4 @@
-package CH1_SortAlgorithm.QuickSort;
+package CH1_Sort.QuickSort;
 
 import java.util.Arrays;
 /****************************************************************************
