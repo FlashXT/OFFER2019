@@ -12,6 +12,24 @@ public class HuaWeiTest {
             String str = "";
             while (in.hasNextLine()) {
                 str = in.nextLine();
+                //若hasNextLine()无法终止，必须用之前读取到的
+                内容确定行数，然后breakl
+            }
+            //nextLine()读进来是String,要获取int,必须先切分成String数组，
+            //然后再转化为int数组：
+            int [] y = new int [length];
+            String[] ch = str.split(" ");
+            for(i = 0; i<ch.length;i++)
+                y[i] = Integer.valueOf(ch[i]);
+
+            或
+            int [][] x = new int [length+1][5];
+            for(i = 0;i < x.length;i++){
+                ch = str[i+1].split("\\s+");\\s+匹配多个空格
+                for (int j=0;j < 5;j++ ){
+                    x[i][j] = Integer.valueOf(ch[j].trim());
+                    //trim()删除前后空格
+                }
             }
             //自己的解题代码
             。。。。。。
