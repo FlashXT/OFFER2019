@@ -1,4 +1,4 @@
-package DataStructure.CH5_Tree;
+package DataStructure.CH6_Tree;
 
 public class BinaryTree <Item>{
 

@@ -1,4 +1,4 @@
-package DataStructure.CH5_Tree;
+package DataStructure.CH6_Tree;
 //二叉树的非递归遍历
 import DataStructure.CH4_StackQueue.ArrayStack;
 
@@ -92,7 +92,7 @@ public class treeTraverse1 {
             else{
                 //弹出此时的栈顶元素
                 temp = stack.pop();
-                //转向改元素的右孩子，但并不压栈！！！
+                //转向该元素的右孩子，但并不压栈！！！
                 // 压栈在上面的循环中完成
                 temp = temp.rightnode;
             }

@@ -1,4 +1,4 @@
-package DataStructure.CH5_Tree;
+package DataStructure.CH6_Tree;
 
 public final class TreeNode<T> {
     TreeNode leftnode;
