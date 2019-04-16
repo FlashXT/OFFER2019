@@ -32,6 +32,7 @@ public class QuickSort {
         Quicksort(arr,pivot+1,end);
 
     }
+
     //经典方法
     public static int partition(int [] arr,int start,int end){
         int pivot = start;

@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**********************************************************************************
  * java.util.concurrent.locks.Lock 是一个类似于 synchronized 块的线程同步机制。但
  * 是 Lock 比 synchronized 块更加灵活、精细。
- *  Lock 是一个接口，使用它的实现类:ReentrantLock。
+ *  Lock 是一个接口，它的实现类:ReentrantLock。
  *  Lock 和synchronized同步块的不同点：
  *      ①synchronized 代码块不能够保证进入访问等待的线程的先后顺序。
  *      ②你不能够传递任何参数给一个synchronized 代码块的入口。因此，对于 synchronized
@@ -28,6 +28,8 @@ import java.util.concurrent.locks.ReentrantLock;
  *unlock()：该方法对 Lock 实例解锁。一个 Lock 实现将只允许锁定了该对象的线程来调用此方法。其
  *        他(没有锁定该 Lock 对象的线程)线程对 unlock() 方法的调用将会抛一个未检查异常
  *        (RuntimeException)。
+ *
+ *https://www.cnblogs.com/aspirant/p/6930436.html
  ************************************************************************************/
 public class testLock {
     public static void main(String [] args) throws InterruptedException {
@@ -53,6 +55,7 @@ public class testLock {
             public void run() {
 //                lock.lock();
 	        	try {
+	        	    //①中断锁
 					lock.lockInterruptibly();
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
