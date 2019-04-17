@@ -1,4 +1,4 @@
-package DataStructure.CH9_JavaCollection.UnionFindSetApplication2;
+package DataStructure.CH6_Tree.unionFindSet.Application.Application2;
 
 
 import java.util.*;

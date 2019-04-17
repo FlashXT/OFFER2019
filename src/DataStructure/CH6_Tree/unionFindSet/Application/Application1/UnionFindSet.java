@@ -1,4 +1,4 @@
-package DataStructure.CH9_JavaCollection;
+package DataStructure.CH6_Tree.unionFindSet.Application.Application1;
 
 /***********************************************************************
  * 并查集
@@ -13,9 +13,10 @@ package DataStructure.CH9_JavaCollection;
  *         同一集合。
  *
  * 并查集的时间复杂度:
- *     并查集进行n次查找的时间复杂度是O(n )（执行n-1次合并和m≥n次查找）。其中 是一
- * 个增长极其缓慢的函数，它是阿克曼函数（Ackermann Function）的某个反函数。它可以看
- * 作是小于5的。所以可以认为并查集的时间复杂度几乎是线性的。
+ *     并查集进行n次查找的时间复杂度是O(M Alpha(N))（执行n-1次合并和m≥n次查找）。
+ *  其中Alpha(N)是一个增长极其缓慢的函数，它是阿克曼函数（Ackermann Function）的某
+ *  个反函数。它可以看作是小于5的。所以可以认为并查集的时间复杂度几乎是线性的。
+ *
  *************************************************************************/
 public class UnionFindSet {
 
@@ -31,7 +32,7 @@ public class UnionFindSet {
         System.out.println(findParent2(node2).value);
         System.out.println(findParent2(node3).value);
     }
-    public static boolean unionFind(Node node1,Node node2){
+    public static boolean unionFind(Node node1, Node node2){
             Node node1p = findParent2(node1);
             Node node2p = findParent2(node2);
 
@@ -73,7 +74,6 @@ public class UnionFindSet {
     }
 
 }
-
 class Node{
     public int value;
     public int size;

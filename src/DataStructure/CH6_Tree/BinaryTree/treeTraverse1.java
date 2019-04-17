@@ -1,4 +1,4 @@
-package DataStructure.CH6_Tree;
+package DataStructure.CH6_Tree.BinaryTree;
 //二叉树的非递归遍历
 import DataStructure.CH4_StackQueue.ArrayStack;
 

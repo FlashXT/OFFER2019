@@ -1,4 +1,4 @@
-package DataStructure.CH9_JavaCollection;
+package DataStructure.JavaCollection;
 
 import java.util.*;
 

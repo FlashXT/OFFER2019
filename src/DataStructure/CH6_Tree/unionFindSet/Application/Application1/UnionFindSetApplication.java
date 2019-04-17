@@ -1,4 +1,4 @@
-package DataStructure.CH9_JavaCollection;
+package DataStructure.CH6_Tree.unionFindSet.Application.Application1;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -61,7 +61,7 @@ public class UnionFindSetApplication {
             if(i == pair.length) break;
         }
         //建立结点集
-        Node [] node = new Node[numlen];
+        Node[] node = new Node[numlen];
         i = 0;
         Iterator<Integer> it = s.iterator();
         while(it.hasNext()){
