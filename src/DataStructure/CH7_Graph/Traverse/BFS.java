@@ -30,7 +30,7 @@ public class BFS {
         while(!queue.isEmpty()){
 
             Node cur = queue.poll();
-            System.out.printf("%-4d",node.value);
+            System.out.printf("%-4d",cur.value);
             for(Node next:cur.nexts){
                 if(!set.contains(next)){
                     set.add(next);
