@@ -1,8 +1,8 @@
 package DataStructure.CH7_Graph.Traverse;
 
-import DataStructure.CH7_Graph.GraphDefination.Graph;
-import DataStructure.CH7_Graph.GraphDefination.Node;
-import DataStructure.CH7_Graph.GraphDefination.createGraph;
+import DataStructure.CH7_Graph.Graph.Graph;
+import DataStructure.CH7_Graph.Graph.Node;
+
 
 import java.util.HashSet;
 import java.util.Set;
@@ -16,8 +16,8 @@ public class DFS {
                 {1,1,4},
                 {3,2,5},
                 {4,5,3},
-                {2,3,4}};
-        Graph g= createGraph.createGraph(matrix);
+                {2,3,5}};
+        Graph g= new Graph(matrix);
         DFSTraverse(g);
     }
     public static void DFSTraverse(Graph g){

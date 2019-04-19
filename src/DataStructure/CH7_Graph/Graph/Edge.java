@@ -1,4 +1,4 @@
-package DataStructure.CH7_Graph.GraphDefination;
+package DataStructure.CH7_Graph.Graph;
 
 public class Edge {
     public double weight;
