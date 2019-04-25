@@ -100,7 +100,7 @@ public class LinkedList<Item>  implements Iterable<Item>{
     }
     //单链表反转
     public Node ReverseList(Node first){
-        if(first == null || first.next == null) return first;
+        if( first.next == null) return first;
         Node head = ReverseList(first.next);
         first.next.next = first;
         first.next= null;
