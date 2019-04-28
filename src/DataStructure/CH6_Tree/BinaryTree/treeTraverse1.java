@@ -152,7 +152,7 @@ public class treeTraverse1 {
         if(temp != null){
             while(!stack.isEmpty()){
                 temp = stack.pop();
-                //stack中按stack出栈的元素的顺序压入元素(右左中)
+                //stack中按stack出栈的元素的顺序压入元素(中右左)
                 stack2.push(temp);
                 //stack栈中，先压入自身，再压入左孩子，最后压入右孩子
                 if(temp.leftnode != null){
