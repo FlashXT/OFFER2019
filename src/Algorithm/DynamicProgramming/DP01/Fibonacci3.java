@@ -1,6 +1,6 @@
 package Algorithm.DynamicProgramming.DP01;
 
-public class Fibonacci2 {
+public class Fibonacci3 {
     static int count = 0;
     public static void main(String [] args){
         long time1 = System.currentTimeMillis()/1000;
@@ -8,18 +8,17 @@ public class Fibonacci2 {
         int n = 5;
         long [] temp = new long[n+1];
         System.out.println(fib(n,temp));
-        System.out.println("fib()函数被调用："+count+"次");
         System.out.println("耗时："+(System.currentTimeMillis()/1000- time1)+"s");
     }
 
 
     public static long fib(int n,long[] temp){
-        count++;
-        if(n == 0) return 0;
-        if(n == 1) return 1;
-        if(temp[n] == 0)
-            //记忆化搜索,自上向下
-            temp[n] = fib(n-1,temp)+fib(n-2,temp);
+
+        temp[0] = 0;
+        temp[1] = 1;
+        //动态规划，自底向上
+        for(int i = 2;i <= n;i++)
+            temp[i]=temp[i-1]+temp[i-2];
         return temp[n];
 
     }
