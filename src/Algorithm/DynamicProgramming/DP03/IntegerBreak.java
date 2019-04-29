@@ -45,8 +45,8 @@ public class IntegerBreak {
             return ;
         }
         //递归穷举，效率不够高，只是可解
-        for(int i = num;i > 0 ;i--){
-            if( index > 0 && i > temp[index-1]) continue;
+        for(int i = num;i > 0;i--){
+//            if( index > 0 && i > temp[index-1]) continue;
             temp[index] = i;
             intBreak(num-i,index+1,temp);
         }
@@ -54,7 +54,6 @@ public class IntegerBreak {
     }
 
     //递归,对整数n进行分割（至少分割为两部分），可以获得的最大乘积
-
     public static int intBreak2(int num){
         if(num ==1)
             return 1;
@@ -91,8 +90,11 @@ public class IntegerBreak {
         memo[0] = 1;
 
         for(int i = 1 ; i <= num;i++){
-            for(int j = 1; j <i;j++)
-                memo[i] = Math.max(memo[i],Math.max((i-j)*j,(i-j)*memo[j]));
+            //求解memo[i]
+            for(int j = 1; j <=Math.ceil(i/2);j++)
+                // i = j+(i-j)
+                memo[i] = Math.max(memo[i],Math.max(j*(i-j),j*memo[i-j]));
+//                memo[i] = Math.max(memo[i],Math.max((i-j)*j,(i-j)*memo[j]));
         }
 
         return memo[num];
