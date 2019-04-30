@@ -25,27 +25,53 @@ public class LeetCode120_triangle {
     public static void main(String [] args){
         //[[7],[-5,9],[6,5,2],[-8,-2,-7,3],[-2,6,-6,-1,4]]
         List<List<Integer>> list = new ArrayList<>();
-        Integer[] arr1 = {7};
+        Integer[] arr1 = {2};
         List<Integer> list1 = Arrays.asList(arr1);
-        Integer[] arr2 = {-5,9};
+        Integer[] arr2 = {3,4};
         List<Integer> list2 = Arrays.asList(arr2);
-        Integer[] arr3 = {6,5,2};
+        Integer[] arr3 = {6,5,7};
         List<Integer> list3 = Arrays.asList(arr3);
-        Integer[] arr4 = {-8,-2,-7,3};
+        Integer[] arr4 = {4,1,8,3};
         List<Integer> list4 = Arrays.asList(arr4);
-        Integer[] arr5 = {-2,6,-6,-1,4};
-        List<Integer> list5 = Arrays.asList(arr5);
+//        Integer[] arr5 = {-2,6,-6,-1,4};
+//        List<Integer> list5 = Arrays.asList(arr5);
         list.add(list1);
         list.add(list2);
         list.add(list3);
         list.add(list4);
-        list.add(list5);
+//        list.add(list5);
 //        System.out.println(minimumTotal2(list));
-        System.out.println(minimumTotalDP(list));
+
+//        System.out.println(minimumTotal3(list));
+//        System.out.println(minimumTotalDP1(list));
+        System.out.println(minimumTotalDP2(list));
+
 
     }
-    //方法三：动态规划
-    public static int minimumTotalDP(List<List<Integer>> triangle){
+    //方法五：动态规划改进
+    public static int minimumTotalDP2(List<List<Integer>> triangle){
+
+        //memo[i]表示计算到第i行各个位置上的最小和
+        int [] memo = new int[triangle.get(triangle.size()-1).size()];
+        for(int i = 0; i < memo.length;i++)
+            memo[i] = Integer.MAX_VALUE;
+        memo[0] = triangle.get(0).get(0);
+        int row = triangle.size(),col;
+        for(int i = 1; i < row;i++) {
+            col = triangle.get(i).size();
+
+            for (int j =col-1; j >0; j--){
+                int temp = Math.min(memo[j-1],memo[j]);
+                memo[j]= temp + triangle.get(i).get(j);
+            }
+            memo[0]+=triangle.get(i).get(0);
+        }
+
+        Arrays.sort(memo);
+        return memo[0];
+    }
+    //方法四：动态规划
+    public static int minimumTotalDP1(List<List<Integer>> triangle){
         int [] [] matrix = new int[triangle.size()][triangle.get(triangle.size()-1).size()];
         for(int i = 0; i < matrix.length;i++){
             for(int j = 0; j < matrix[i].length;j++)
@@ -96,6 +122,49 @@ public class LeetCode120_triangle {
         }
         return sum;
     }
+
+    //方法三：记忆化搜索，自顶向下
+    public static int minimumTotal3(List<List<Integer>> triangle) {
+        //memo[i]表示当前行第i个位置上的和
+        int row = triangle.size();
+        int col = triangle.get(triangle.size()-1).size();
+        int [] memo = new int[col];
+
+        for(int i = 0; i < memo.length;i++){
+            memo[i] = Integer.MAX_VALUE;
+        }
+
+
+//        for(int i = 0; i < triangle.size();i++) {
+//            for (int j = 0; j < triangle.get(i).size(); j++)
+//                System.out.printf("%4d",triangle.get(i).get(j));
+//            System.out.println();
+//        }
+        GetMinSum(triangle,row-1,col-1,memo);
+        Arrays.sort(memo);
+//        System.out.println(Arrays.toString(memo));
+        return memo[0];
+
+    }
+    public static int GetMinSum(List<List<Integer>> triangle,int row,int col,int [] memo){
+
+        if(row <=0 && col<=0)
+            return triangle.get(0).get(0);
+        if(col > row)
+            return Integer.MAX_VALUE;
+        if(col < 0)
+            return memo[0];
+        if(memo[col] != Integer.MAX_VALUE)
+            return memo[col];
+
+        for(int i =col;i>=0;i--){
+            int v1 = GetMinSum(triangle,row-1,i-1,memo);
+            int v2 = GetMinSum(triangle,row-1,i,memo);
+
+            memo[i] = triangle.get(row).get(i)+Math.min(v1,v2);
+        }
+        return memo[col];
+    }
     //方法二：正确的思路与方法，但是不满足要求
     public static int minimumTotal2(List<List<Integer>> triangle) {
         int sum = 0;
@@ -122,7 +191,8 @@ public class LeetCode120_triangle {
         for(int i = col; i< Math.min(col+2,triangle.get(row).size());i++) {
             sum += triangle.get(row).get(i);
             GetMinsum(triangle, row + 1, i, sum, arrlist); //试探
-            sum -= triangle.get(row).get(i);               //回溯
+
+            sum -= triangle.get(row).get(i);                   //回溯
 
         }
     }
