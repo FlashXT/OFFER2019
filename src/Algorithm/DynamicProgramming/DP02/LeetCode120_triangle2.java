@@ -63,8 +63,8 @@ public class LeetCode120_triangle2 {
             System.out.println();
         }
         GetMinSum(triangle,row-1,col-1,memo);
-        Arrays.sort(memo);
         System.out.println(Arrays.toString(memo));
+        Arrays.sort(memo);
         return memo[0];
 
     }
