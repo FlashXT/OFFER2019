@@ -47,6 +47,6 @@ public class String01ReplaceBlank {
                 }
         }
 
-        System.out.println(temp);
+//        System.out.println(temp);
     }
 }
