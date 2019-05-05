@@ -48,7 +48,7 @@ public class BulidBinaryTree {
         return root;
     }
 
-    //先序遍历非递归1
+    //先序遍历非递归
     public static void preTraverse(Node node){
         if(node!=null){
             ArrayStack<Node> stack = new ArrayStack<>();
