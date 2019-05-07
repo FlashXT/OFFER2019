@@ -1,6 +1,6 @@
 package TencentOffer.CH3.Problem18_Tree;
 
-import java.util.Stack;
+import java.util.*;
 
 /*****************************************************************
  * @Author:FlashXT;
@@ -11,29 +11,56 @@ import java.util.Stack;
 public class SymmetricBinaryTree {
 
     public static void main(String [] args){
-        int [] arr = {1,2,3,4,5,6,7,8};
+        int [] arr = {1,2,2,3,4,4,3};
+//        int [] arr = {1,0};
         TreeNode tree = BulidTree(arr,0);
-        preTraverse(tree);
-        System.out.println();
-        midTraverse(tree);
+        System.out.println(isSymmetricTree(tree));
     }
 
-    public static TreeNode TreeMirrorImage2(TreeNode root){
+    public static boolean isSymmetricTree(TreeNode root){
+        if(root == null) return true;
         TreeNode temp = root;
-        Stack<TreeNode> stack = new Stack<>();
-        boolean flag = true;
-        while(!stack.isEmpty() || temp!=null){
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        ArrayList<Integer> list = new ArrayList<>();
+        queue.add(temp);
+        TreeNode level = root;
+        while(!queue.isEmpty()&& level!= null){
+            temp = queue.remove();
             if(temp!= null){
-                if()
-                stack.push(temp);
-                temp = temp.leftNode;
+                queue.add(temp.leftNode);
+                queue.add(temp.rightNode);
             }
-            else{
-                temp = stack.pop();
-                temp = temp.rightNode;
+            while(temp == null && !queue.isEmpty()){
+                list.add(-1);
+                temp = queue.remove();
             }
+            if(temp!=null)
+                list.add(temp.value);
+
+            if(temp == level){
+                if(!isSymmetric(list))
+                    return false;
+                if(level.rightNode!= null)
+                    level = level.rightNode;
+
+            }
+
         }
-        return root;
+        return true;
+    }
+
+    public static boolean isSymmetric(ArrayList<Integer> list){
+
+        int length = list.size()-1;
+        int i = 0;
+        while(i< length-i){
+            if(list.get(i) != list.get(length-i)){
+                return false;
+            }
+            i++;
+        }
+        return true;
     }
 
     public static TreeNode BulidTree(int [] arr,int index){
