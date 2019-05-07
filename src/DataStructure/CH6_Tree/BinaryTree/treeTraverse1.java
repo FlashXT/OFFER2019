@@ -147,7 +147,7 @@ public class treeTraverse1 {
         //辅助栈，从栈stack中出栈的结点按顺序保存到stack2中
         ArrayStack<TreeNode> stack2 = new ArrayStack<>();
 
-        TreeNode temp = node ;
+        TreeNode temp = node;
         stack.push(temp);
         if(temp != null){
             while(!stack.isEmpty()){

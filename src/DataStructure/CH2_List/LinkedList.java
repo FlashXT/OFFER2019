@@ -2,17 +2,6 @@ package DataStructure.CH2_List;
 
 import java.util.Iterator;
 
-//链表的结点类型
-class Node<Item>{
-    Item item;
-    Node next;
-    public Node(){}
-    public Node(Item item){
-        this.item = item;
-        this.next = null;
-    }
-
-}
 public class LinkedList<Item>  implements Iterable<Item>{
     public Node head;
     public int size;
@@ -20,7 +9,11 @@ public class LinkedList<Item>  implements Iterable<Item>{
     public LinkedList(){
 
     }
-
+    public LinkedList(Item [] item){
+        for(Item val :item){
+            tailInsert(val);
+        }
+    }
     //链表尾插插入元素
     public void tailInsert(Item item){
         Node<Item> node = new Node<>(item);
@@ -106,6 +99,23 @@ public class LinkedList<Item>  implements Iterable<Item>{
         first.next= null;
         return head;
 
+    }
+    //单链表反转
+    public Node ReverseList2(Node head){
+        if( head  == null || head.next.next == null) return head;
+        Node pNpre = null;
+        Node pNode = head;
+        Node Rhead = null;
+        while(pNode != null){
+            Node pNext = pNode.next;
+            if(pNext == null)
+                Rhead = pNode;
+            pNode.next = pNpre;
+            pNpre = pNode;
+            pNode = pNext;
+
+        }
+        return Rhead;
     }
 
 

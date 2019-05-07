@@ -1,4 +1,4 @@
-package TencentOffer.CH3.BigNumProblem.Problem12_PrintN;
+package TencentOffer.CH3.Problem12_BigNumProblem.Problem12_PrintN;
 
 public class Main {
     public static void main(String [] args){

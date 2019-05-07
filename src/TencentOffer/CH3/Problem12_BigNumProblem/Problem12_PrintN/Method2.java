@@ -1,6 +1,4 @@
-package TencentOffer.CH3.BigNumProblem.Problem12_PrintN;
-
-import java.util.Arrays;
+package TencentOffer.CH3.Problem12_BigNumProblem.Problem12_PrintN;
 
 public class Method2 {
 

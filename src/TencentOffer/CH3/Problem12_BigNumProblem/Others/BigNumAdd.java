@@ -1,4 +1,4 @@
-package TencentOffer.CH3.BigNumProblem.Others;
+package TencentOffer.CH3.Problem12_BigNumProblem.Others;
 
 
 /************************************************
