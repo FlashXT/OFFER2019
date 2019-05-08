@@ -1,6 +1,6 @@
 package TencentOffer.CH2;
 
-import DataStructure.CH4_StackQueue.ArrayStack;
+import DataStructure.CH3_StackQueue.ArrayStack;
 
 class Node{
     int value;

@@ -1,6 +1,6 @@
 package DataStructure.CH2_List;
 
-import DataStructure.CH4_StackQueue.ArrayStack;
+import DataStructure.CH3_StackQueue.ArrayStack;
 
 import java.util.Iterator;
 
