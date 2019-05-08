@@ -11,54 +11,40 @@ import java.util.*;
 public class SymmetricBinaryTree {
 
     public static void main(String [] args){
-        int [] arr = {1,2,2,3,4,4,3};
+        int [] arr = {1,2,2,-1,3,3};
 //        int [] arr = {1,0};
+
         TreeNode tree = BulidTree(arr,0);
         System.out.println(isSymmetricTree(tree));
     }
 
-    public static boolean isSymmetricTree(TreeNode root){
-        if(root == null) return true;
-        TreeNode temp = root;
-        Queue<TreeNode> queue = new LinkedList<>();
+    public static boolean isSymmetricTreeR(TreeNode root1,TreeNode root2){
+        if(root1 == null&& root2 == null)
+            return true;
+        if(root1== null || root2 == null)
+            return false;
 
-        ArrayList<Integer> list = new ArrayList<>();
-        queue.add(temp);
-        TreeNode level = root;
-        while(!queue.isEmpty()&& level!= null){
-            temp = queue.remove();
-            if(temp!= null){
-                queue.add(temp.leftNode);
-                queue.add(temp.rightNode);
-            }
-            while(temp == null && !queue.isEmpty()){
-                list.add(-1);
-                temp = queue.remove();
-            }
-            if(temp!=null)
-                list.add(temp.value);
-
-            if(temp == level){
-                if(!isSymmetric(list))
-                    return false;
-                if(level.rightNode!= null)
-                    level = level.rightNode;
-
-            }
-
+        if(root1.value == root2.value){
+            return isSymmetricTreeR(root1.leftNode,root2.rightNode)&&
+                    isSymmetricTreeR(root1.rightNode,root2.leftNode);
         }
-        return true;
+        else
+            return false;
     }
 
-    public static boolean isSymmetric(ArrayList<Integer> list){
-
-        int length = list.size()-1;
-        int i = 0;
-        while(i< length-i){
-            if(list.get(i) != list.get(length-i)){
-                return false;
-            }
-            i++;
+    public static boolean isSymmetricTree(TreeNode root) {
+        if (root == null) return true;
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root.leftNode);
+        stack.push(root.rightNode);
+        while (!stack.empty()) {
+            TreeNode n1 = stack.pop(), n2 = stack.pop();
+            if (n1 == null && n2 == null) continue;
+            if (n1 == null || n2 == null || n1.value != n2.value) return false;
+            stack.push(n1.leftNode);
+            stack.push(n2.rightNode);
+            stack.push(n1.rightNode);
+            stack.push(n2.leftNode);
         }
         return true;
     }
