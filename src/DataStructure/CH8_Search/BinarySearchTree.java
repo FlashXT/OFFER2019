@@ -119,8 +119,7 @@ public class BinarySearchTree {
                     pnode.rightnode = null;
             }
             //②P结点 仅有左或者右子树的结点
-            else if(dnode.leftnode != null && dnode.rightnode == null
-                    || dnode.leftnode == null && dnode.rightnode != null){
+            else if(dnode.leftnode == null || dnode.rightnode == null){
                 if(dnode.leftnode != null){
                     if(pnode.leftnode != null && pnode.leftnode.item == dnode.item)
                         pnode.leftnode = dnode.leftnode;
@@ -161,8 +160,8 @@ public class BinarySearchTree {
 
         return false;
     }
-    //结点查找
-    public static TreeNode<Integer> SearchPNode(TreeNode<Integer> node,int key){
+    //查找删除结点的父结点
+    private static TreeNode<Integer> SearchPNode(TreeNode<Integer> node,int key){
         if(node.leftnode == null&&node.rightnode == null )
             return null;
         if(node.leftnode != null && (int)node.leftnode.item == key){
