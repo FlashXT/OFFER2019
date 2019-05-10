@@ -32,12 +32,12 @@ class AVLTreeNode<T>{
 }
 public class AVLTree {
     public static void main(String [] args){
-        int [] arr = {4,1,2,3,-1,5,9,6};
+        int [] arr = {4,1,2,3,-1,8,5,9,6,7};
 //        int [] arr = {12,24,37,45,53,93};
         AVLTreeNode<Integer> root = bulidAVLTree(arr);
         midTraverse(root);
         System.out.println();
-        remove(root,4);
+        remove(root,5);
         midTraverse(root);
         System.out.println();
 
@@ -156,14 +156,12 @@ public class AVLTree {
                     //   (03)删除该最小节点。
                     // 这类似于用"tree的右子树中最小节点"做"tree"的替身；
                     // 采用这种方式的好处是：删除"tree的右子树中最小节点"之后，AVL树仍然是平衡的。
-                    AVLTreeNode<Integer> min = maximum(root.rightnode);
+                    AVLTreeNode<Integer> min = minimum(root.rightnode);
                     root.item = min.item;
                     root.rightnode = remove(root.rightnode, min.item);
                 }
             } else {
-                AVLTreeNode<Integer> tmp = root;
                 root = (root.leftnode!=null) ? root.leftnode: root.rightnode;
-                tmp = null;
             }
         }
 
