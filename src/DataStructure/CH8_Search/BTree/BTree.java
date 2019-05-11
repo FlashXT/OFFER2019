@@ -1,4 +1,4 @@
-package DataStructure.CH8_Search;
+package DataStructure.CH8_Search.BTree;
 
 import java.util.Arrays;
 import java.util.Scanner;

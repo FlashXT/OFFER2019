@@ -1,4 +1,7 @@
-package DataStructure.CH8_Search;
+package DataStructure.CH8_Search.AVLTree;
+
+
+import DataStructure.CH8_Search.TreeNode;
 
 /**********************************************************************************
  *                              二叉排序树
@@ -43,13 +46,13 @@ public class BinarySearchTree {
         System.out.println();
         System.out.println(Search(root,12));
 
-        System.out.println(Delete(root,-1));
+        DeleteR(root,-1);
         midTraverse(root);
         System.out.println();
-        System.out.println(Delete(root,6));
+        DeleteR(root,6);
         midTraverse(root);
         System.out.println();
-        System.out.println(Delete(root,9));
+        DeleteR(root,9);
         midTraverse(root);
         System.out.println();
 
@@ -99,6 +102,62 @@ public class BinarySearchTree {
         else
             return Search(root.rightnode,key);
     }
+    //二叉排序树递归删除
+    public static TreeNode<Integer>  DeleteR(TreeNode<Integer> root,int key){
+        if(root == null || Search(root,key)!= true){
+            return null;
+        }
+
+
+        if(root.item < key)
+            root.rightnode =  DeleteR(root.rightnode,key);
+        else if(root.item > key)
+            root.leftnode =   DeleteR(root.leftnode,key);
+        //删除结点为当前结点
+        else if(root.item == key){
+            //①P结点 为叶子结点
+            if(root.leftnode == null && root.rightnode == null){
+                root = null;
+
+            }
+            //②P结点 仅有左或者右子树的结点
+            else if(root.leftnode == null || root.rightnode == null){
+                root = root.leftnode == null?root.rightnode:root.leftnode;
+
+            }
+            //③P结点 既有左子树又右子树:将P结点的直接前驱或者直接后继作为删除结点的数据
+            //那么如何找到P结点的前驱或者后继？画图寻找二叉树中的L型结构！！！
+            else{
+                //前驱解法
+                TreeNode<Integer> q = root;
+                TreeNode<Integer> s = root.leftnode;
+                while(s.rightnode!=null){
+                    q = s;
+                    s = s.rightnode;
+                }
+                root.item = s.item;
+                if(q != root)
+                    q.rightnode = s.leftnode;
+                else
+                    q.leftnode = s.leftnode;
+                //后继解法
+//                TreeNode<Integer> q = dnode;
+//                TreeNode<Integer> s = dnode.rightnode;
+//                while(s.leftnode!=null){
+//                    q = s;
+//                    s = s.leftnode;
+//                }
+//                dnode.item = s.item;
+//                if(q != dnode)
+//                    q.leftnode = s.rightnode;
+//                else
+//                    q.rightnode = s.rightnode;
+
+            }
+//            return root;
+        }
+        return root;
+    }
 
     //二叉排序树删除
     public static Boolean Delete(TreeNode<Integer> root,int key){
@@ -143,7 +202,10 @@ public class BinarySearchTree {
 //                    s = s.rightnode;
 //                }
 //                dnode.item = s.item;
-//                if(q != dnode) q.rightnode = s.leftnode;
+//                if(q != dnode)
+//                    q.rightnode = s.leftnode;
+//                else
+//                    q.leftnode = s.leftnode;
                 //后继解法
                 TreeNode<Integer> q = dnode;
                 TreeNode<Integer> s = dnode.rightnode;
@@ -152,8 +214,10 @@ public class BinarySearchTree {
                     s = s.leftnode;
                 }
                 dnode.item = s.item;
-                if(q != dnode) q.leftnode = s.rightnode;
-
+                if(q != dnode)
+                    q.leftnode = s.rightnode;
+                else
+                    q.rightnode = s.rightnode;
             }
             return true;
         }

@@ -1,4 +1,4 @@
-package DataStructure.CH8_Search;
+package DataStructure.CH8_Search.BTree;
 
 /*****************************************************************************
  *                                  B+树

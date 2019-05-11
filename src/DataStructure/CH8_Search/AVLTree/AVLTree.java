@@ -1,6 +1,6 @@
-package DataStructure.CH8_Search;
+package DataStructure.CH8_Search.AVLTree;
 
-import java.net.Inet4Address;
+import java.util.Comparator;
 
 /************************************************************************
  * 平衡二叉树（Balanced Binary Tree）:
@@ -17,48 +17,58 @@ import java.net.Inet4Address;
  *
  ************************************************************************/
 
-class AVLTreeNode<T>{
-    public T item;
-    public int bf;
-    public AVLTreeNode leftnode;
-    public AVLTreeNode rightnode;
-    public AVLTreeNode(T item){
-        this.item = item;
-        this.bf = 0;
-        this.leftnode = null;
-        this.rightnode = null;
+public class AVLTree<T> {
+    class AVLTreeNode<T>{
+        public T item;
+        public int bf;
+        public AVLTreeNode leftnode;
+        public AVLTreeNode rightnode;
+        public AVLTreeNode(T item){
+            this.item = item;
+            this.bf = 0;
+            this.leftnode = null;
+            this.rightnode = null;
+
+        }
 
     }
-}
-public class AVLTree {
-    public static void main(String [] args){
-        int [] arr = {4,1,2,3,-1,8,5,9,6,7};
-//        int [] arr = {12,24,37,45,53,93};
-        AVLTreeNode<Integer> root = bulidAVLTree(arr);
-        midTraverse(root);
-        System.out.println();
-        remove(root,5);
-        midTraverse(root);
-        System.out.println();
+    public AVLTreeNode<T> root;
+    private Comparator<T> comparator;
+    public AVLTree(){}
 
+    public AVLTree(T[] arr){
+
+        this.root = bulidAVLTree(arr);
+        this.comparator = null;
+    }
+    public AVLTree(T[] arr, Comparator<T> comparator){
+        this.comparator = comparator;
+        this.root = bulidAVLTree(arr);
 
     }
 
     //建立平衡二叉树
-    public static AVLTreeNode<Integer> bulidAVLTree(int [] arr){
+    public AVLTreeNode<T> bulidAVLTree(T [] arr){
         AVLTreeNode root= null;
         for(int i = 0; i < arr.length;i++)
            root = insertAVLTree(root,arr[i]);
         return root;
 
     }
-    //向平衡二叉树中插入元素
-    public static AVLTreeNode<Integer> insertAVLTree(AVLTreeNode<Integer> root,int value){
+    //平衡二叉树中插入元素
+    public AVLTreeNode<T> insertAVLTree(AVLTreeNode<T> root,T value){
+
         if(root == null)
             return new AVLTreeNode<>(value);
 
         else{
-            if(value < root.item){
+            int com = 0;
+            if(this.comparator == null)
+                com = this.Compataor(root.item,value);
+
+            else
+                com = this.comparator.compare(root.item,value);
+            if(com > 0){
 
                 root.leftnode = insertAVLTree(root.leftnode,value);
                 root.bf = updateBF(root);
@@ -71,7 +81,7 @@ public class AVLTree {
                 }
 
             }
-            else if (value > root.item){
+            else if (com < 0){
 
                 root.rightnode = insertAVLTree(root.rightnode,value);
                 root.bf = updateBF(root);
@@ -87,52 +97,82 @@ public class AVLTree {
         return root;
     }
     //AVL树查找(同二叉排序树)
-    public static Boolean Search(TreeNode<Integer> root,int key){
+
+    public Boolean Search(T key){
+        return Search(this.root,key);
+
+    }
+    private Boolean Search(AVLTreeNode<T> root,T value){
         if(root == null)
             return false;
-        if(root.item == key)
-            return true;
-        else if(root.item > key)
-            return Search(root.leftnode,key);
+        int com = 0;
+        if(this.comparator == null)
+            com = this.Compataor(root.item,value);
+
         else
-            return Search(root.rightnode,key);
+            com = this.comparator.compare(root.item,value);
+        if(com == 0)
+            return true;
+        else if(com > 0)
+            return Search(root.leftnode,value);
+        else
+            return Search(root.rightnode,value);
     }
     //删除结点
-    public static AVLTreeNode<Integer> remove(AVLTreeNode<Integer> root, int value) {
+    public  Boolean RemoveNode(T value){
+
+        if(Search(value)== true){
+            this.root = remove(this.root,value);
+            return true;
+        }
+        else
+            return false;
+
+    }
+    //参考：https://www.cnblogs.com/skywang12345/p/3577479.html#a2
+    private AVLTreeNode<T> remove(AVLTreeNode<T> root, T value) {
         // 根为空 或者 没有要删除的节点，直接返回null。
         if (root ==null)
             return null;
+        int com = 0;
+        if(this.comparator == null)
+            com = this.Compataor(root.item,value);
+
+        else
+            com = this.comparator.compare(root.item,value);
         // 待删除的节点在"root的左子树"中
-        if (root.item > value) {
+        if (com >0) {
             root.leftnode = remove(root.leftnode, value);
             // 删除节点后，若AVL树失去平衡，则进行相应的调节。
-            root.bf = updateBF(root);
-            if (root.bf == 2) {
-                AVLTreeNode<Integer> r =  root.rightnode;
-                r.leftnode.bf = updateBF(r.leftnode);
-                r.rightnode.bf = updateBF(r.rightnode);
+            if(root !=null){
+                root.bf = updateBF(root);
+                if (root.bf == -2) {
+                    AVLTreeNode<Integer> r =  root.rightnode;
 
-                if ( r.leftnode.bf > r.rightnode.bf)
-                    root = RL(root);
-                else
-                    root = RR(root);
+                    if ( r.rightnode.bf == 1)
+                        root = RL(root);
+                    else
+                        root = LL(root);
+                }
             }
+
         }
         // 待删除的节点在"tree的右子树"中
-        else if (root.item < value) {
+        else if (com < 0) {
             root.rightnode = remove(root.rightnode,value);
             // 删除节点后，若AVL树失去平衡，则进行相应的调节。
-            root.bf = updateBF(root);
-            if (root.bf == 2) {
-                AVLTreeNode<Integer> l =  root.leftnode;
-                l.leftnode.bf = updateBF(l.leftnode);
-                l.rightnode.bf = updateBF(l.rightnode);
+            if(root != null){
+                root.bf = updateBF(root);
+                if (root.bf == 2) {
+                    AVLTreeNode<T> l =  root.leftnode;
 
-                if (l.rightnode.bf > l.leftnode.bf)
-                    root =LR(root);
-                else
-                    root = LL(root);
+                    if ( l.leftnode.bf == -1)
+                        root =LR(root);
+                    else
+                        root = RR(root);
+                }
             }
+
 
         }
         //root是对应要删除的节点。
@@ -146,7 +186,7 @@ public class AVLTree {
                     //   (03)删除该最大节点;
                     // 这类似于用"tree的左子树中最大节点"做"tree"的替身；
                     // 采用这种方式的好处是：删除"tree的左子树中最大节点"之后，AVL树仍然是平衡的。
-                    AVLTreeNode<Integer> max = maximum(root.leftnode);
+                    AVLTreeNode<T> max = maximum(root.leftnode);
                     root.item = max.item;
                     root.leftnode = remove(root.leftnode, max.item);
                 } else {
@@ -156,7 +196,7 @@ public class AVLTree {
                     //   (03)删除该最小节点。
                     // 这类似于用"tree的右子树中最小节点"做"tree"的替身；
                     // 采用这种方式的好处是：删除"tree的右子树中最小节点"之后，AVL树仍然是平衡的。
-                    AVLTreeNode<Integer> min = minimum(root.rightnode);
+                    AVLTreeNode<T> min = minimum(root.rightnode);
                     root.item = min.item;
                     root.rightnode = remove(root.rightnode, min.item);
                 }
@@ -167,24 +207,24 @@ public class AVLTree {
 
         return root;
     }
-    //单右旋转
-    private static AVLTreeNode<Integer> RR(AVLTreeNode<Integer> node){
-        AVLTreeNode<Integer> temp = node.leftnode;
+    //左左右旋转
+    private AVLTreeNode<T> RR(AVLTreeNode<T> node){
+        AVLTreeNode<T> temp = node.leftnode;
         node.leftnode = temp.rightnode;
         temp.rightnode = node;
         node.bf = updateBF(node);
         temp.bf = updateBF(temp);
         return temp;		//返回新的根
     }
-    //先左旋再右旋
-    public static AVLTreeNode<Integer> LR(AVLTreeNode<Integer> node){
+    //左右先左再右旋
+    public  AVLTreeNode<T> LR(AVLTreeNode<T> node){
         node.leftnode =LL(node.leftnode);
         node = RR(node);
         return node;
     }
-    //单左旋转
-    private static AVLTreeNode<Integer> LL(AVLTreeNode<Integer> node){
-        AVLTreeNode<Integer> temp = node.rightnode;
+    //右右左旋转
+    private  AVLTreeNode<T> LL(AVLTreeNode<T> node){
+        AVLTreeNode<T> temp = node.rightnode;
         node.rightnode = temp.leftnode;
         temp.leftnode = node;
 
@@ -192,26 +232,30 @@ public class AVLTree {
         temp.bf = updateBF(temp);
         return temp;		//返回新的根
     }
-    //先右旋再左旋
-    public static AVLTreeNode<Integer> RL(AVLTreeNode<Integer> node){
+    //右左先右再左旋
+    public  AVLTreeNode<T> RL(AVLTreeNode<T> node){
         node.rightnode =RR(node.rightnode);
         node = LL(node);
         return node;
 
     }
-    public static int updateBF(AVLTreeNode<Integer> node){
-
-        return getDeepth(node.leftnode)-getDeepth(node.rightnode);
+    public  int updateBF(AVLTreeNode<T> node){
+        if(node.leftnode == null && node.rightnode == null)
+            return 0;
+        else if(node.leftnode == null || node.rightnode == null)
+            return node.leftnode == null ? -getDeepth(node.rightnode):getDeepth(node.leftnode);
+        else
+            return getDeepth(node.leftnode) - getDeepth(node.rightnode);
 
     }
-    public static int getDeepth(AVLTreeNode root){
+    public int getDeepth(AVLTreeNode<T> root){
         if(root == null) return 0;
         return Math.max(getDeepth(root.leftnode),getDeepth(root.rightnode))+1;
 
     }
 
     //查找最大结点：返回root为根结点的AVL树的最大结点。
-    private static AVLTreeNode<Integer> maximum(AVLTreeNode<Integer> root) {
+    private  AVLTreeNode<T> maximum(AVLTreeNode<T> root) {
         if (root == null)
             return null;
 
@@ -220,7 +264,7 @@ public class AVLTree {
         return root;
     }
     // 查找最小结点：返回tree为根结点的AVL树的最小结点。
-    private static AVLTreeNode<Integer> minimum(AVLTreeNode<Integer> root) {
+    private  AVLTreeNode<T> minimum(AVLTreeNode<T> root) {
         if (root == null)
             return null;
 
@@ -228,13 +272,35 @@ public class AVLTree {
             root = root.leftnode;
         return root;
     }
+
+    //先序遍历
+    public  void preTraverse(){
+        preTraverse(this.root);
+        System.out.println();
+    }
+    private  void preTraverse(AVLTreeNode<T> root){
+        if(root!=null){
+            System.out.printf("%s\t",root.item.toString());
+            preTraverse(root.leftnode);
+            preTraverse(root.rightnode);
+        }
+    }
     //中序遍历
-    public static void midTraverse(AVLTreeNode root){
+    public  void midTraverse(){
+        midTraverse(this.root);
+        System.out.println();
+    }
+    private  void midTraverse(AVLTreeNode<T> root){
         if(root!=null){
             midTraverse(root.leftnode);
 //            System.out.printf("%d\t",root.bf);
-            System.out.printf("%d\t",root.item);
+            System.out.printf("%s\t",root.item.toString());
             midTraverse(root.rightnode);
         }
+    }
+    //参考PriorityQueue源码
+    private  int Compataor(T o1,T o2){
+        Comparable<? super T> key = (Comparable<? super T>)o1;
+        return key.compareTo(o2);
     }
 }

@@ -1,6 +1,6 @@
 package DataStructure.CH8_Search;
 
-class TreeNode<T> {
+public class TreeNode<T> {
     public T item;
     public TreeNode leftnode;
     public TreeNode rightnode;
