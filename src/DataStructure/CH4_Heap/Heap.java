@@ -74,7 +74,7 @@ class Student{
         return "Id:"+this.id+",Age:"+this.age+",Name:"+this.name;
     }
 }
-class StuComparator implements Comparator<Student>{
+class StuComparator implements Comparator<Student> {
     @Override
     public int compare(Student o1, Student o2) {
         if(o1.id > o2.id)
