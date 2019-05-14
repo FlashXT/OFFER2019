@@ -18,7 +18,7 @@ public class Problem31_FindGreatestSumOfSubArrayDP {
         int[] sum = new int [arr.length];
         sum[0] = arr[0];
         for(int i =0;i < arr.length-1;i++){
-            if(sum[i] >0){
+            if(sum[i] > 0){
                 sum[i+1] = arr[i+1]+sum[i];
             }
             else{
