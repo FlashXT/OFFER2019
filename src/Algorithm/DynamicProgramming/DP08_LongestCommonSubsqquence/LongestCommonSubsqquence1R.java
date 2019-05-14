@@ -10,7 +10,7 @@ public class LongestCommonSubsqquence1R {
     public static void main(String [] args){
         long time1 = System.currentTimeMillis();
         String str1 = "ABEDFGDSSADSADSADSADSADFGERTERTERT";
-        String str2 = "ABCDFFFDGFDGEWRWETREWTERWGTFD";
+        String str2 = "ABCDFFFDGFDGEWRWETREWTERWGFG";
         System.out.println(LCS(str1,str2));
         long time2 = System.currentTimeMillis();
         System.out.println((time2-time1)/1000);
