@@ -6,6 +6,7 @@ package TencentOffer.CH6.Problem46_JosephCircle;
  * @Version 1.0
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
+//f(N,M) = (f(N-1,M)+M)%N
 public class Problem46_JosephCircle3 {
     public static void main(String [] args){
 

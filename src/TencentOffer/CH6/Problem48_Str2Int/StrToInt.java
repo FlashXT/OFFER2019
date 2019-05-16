@@ -16,7 +16,7 @@ public class StrToInt {
     public static int StrToInt(String str){
         if(str.length() == 0) return 0;
         char [] ch = str.toCharArray();
-        long sum = 0;
+        int sum = 0;
         for(int i = ch.length -1; i >= 0 ;i--){
             if( ch[i] < '0' || ch[i] > '9'){
                 if(i == 0){
@@ -30,7 +30,8 @@ public class StrToInt {
                     return 0;
             }
             else
-                sum+=(ch[i]-'0')*Math.pow(10,ch.length-1-i);
+//                sum+=(ch[i]-'0')*Math.pow(10,ch.length-1-i); //不强制转型，需要把sum改为long型
+                  sum+=(int)((ch[i]-'0')*Math.pow(10,ch.length-1-i));
 
         }
         return (int)sum;
