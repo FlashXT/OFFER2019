@@ -21,37 +21,35 @@ public class GetMidMin {
     };
     static PriorityQueue<Integer> smallheap = new PriorityQueue<>();
     static PriorityQueue<Integer> bigheap = new PriorityQueue<>(cmp);
-    public static  int count = 0;
 
     public static void main(String [] args){
-        int [] arr = {1,2,3,4,5,6,7,8,9,10};
-        for(int i = 1; i < arr.length;i++){
+        int [] arr = {5,2,3,4,1,6,7,0,8};
+        for(int i = 0; i < arr.length;i++){
             Insert(arr[i]);
             System.out.println(GetMidMin());
         }
 
     }
     public static void Insert(int num){
-        count++;
-        //元素总数为偶数个，新元素先入小根堆
-        if( (count&1) == 0){
-            smallheap.offer(num);
-            if(smallheap.size() - bigheap.size() >1)
-                bigheap.offer(smallheap.poll());
 
-        }
-        //元素总数为奇数个，新元素先入大根堆
-        else{
+        //新元素默认放进小根堆；如果当前元素小于小根堆的堆顶则放入大根堆；否则放入小根堆；
+        //同时保证大根堆和小根堆的元素数量之差不大于1
+        if(!smallheap.isEmpty()&&num < smallheap.peek())
             bigheap.offer(num);
-            if (bigheap.size() - smallheap.size() > 1)
-                smallheap.offer(bigheap.poll());
-        }
+        else
+            smallheap.offer(num);
+        if(smallheap.size() - bigheap.size() >1)
+            bigheap.offer(smallheap.poll());
+        if(smallheap.size() - bigheap.size() <-1)
+            smallheap.offer(bigheap.poll());
 
     }
     public static double GetMidMin(){
 
-        if((count&1) == 0)
+        if(smallheap.size()== bigheap.size())
             return (bigheap.peek()+smallheap.peek())/2.0;
+        else if(smallheap.size()> bigheap.size())
+            return smallheap.peek();
         else
             return bigheap.peek();
     }
