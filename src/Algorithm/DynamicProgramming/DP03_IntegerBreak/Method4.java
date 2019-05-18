@@ -13,10 +13,8 @@ public class Method4 {
 
         for(int i = 1 ; i <= num;i++){
             //求解memo[i]
-            for(int j = 1; j <=Math.ceil(i/2);j++)
-                // i = j+(i-j)
-                memo[i] = Math.max(memo[i],Math.max(j*(i-j),j*memo[i-j]));
-//                memo[i] = Math.max(memo[i],Math.max((i-j)*j,(i-j)*memo[j]));
+            for(int j = 1; j <i;j++)
+                memo[i] = Math.max(memo[i],Math.max((i-j)*j,(i-j)*memo[j]));
         }
 
         return memo[num];
