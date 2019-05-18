@@ -33,6 +33,7 @@ public class Mehtod3 {
         if(memo[col] != Integer.MAX_VALUE)
             return memo[col];
 
+        //i = col，表示从右往左算
         for(int i =col;i>=0;i--){
             int v1 = GetMinSum(triangle,row-1,i-1,memo);
             int v2 = GetMinSum(triangle,row-1,i,memo);

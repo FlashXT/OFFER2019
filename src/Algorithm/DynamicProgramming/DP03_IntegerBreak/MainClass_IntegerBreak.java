@@ -18,7 +18,7 @@ package Algorithm.DynamicProgramming.DP03_IntegerBreak;
 public class MainClass_IntegerBreak {
     public static int product =1;
     public static void main(String [] args){
-        int num = 10;
+        int num = 8;
 
         System.out.println(Method1.IntegerBreak(num));
         System.out.println(Method2.IntegerBreak(num));
