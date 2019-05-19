@@ -35,7 +35,7 @@ public class TreePath {
             return null;
         }
         str +=root.item;
-        path(root.leftnode,str,res);
+        path(root.leftnode, str,res);
         path(root.rightnode,str,res);
         return res;
     }
