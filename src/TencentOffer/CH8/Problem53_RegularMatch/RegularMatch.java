@@ -35,9 +35,9 @@ public class RegularMatch {
             if(index1 < str.length && str[index1] == pattern[index2] ||
                     index1 < str.length&&pattern[index2]=='.'){
 
-                return  match(str,pattern,index1,index2+2)||            //*前字符出现0次
-                        match(str,pattern,index1+1,index2+2)||      //*前字符出现1次
-                        match(str,pattern,index1+1,index2);             //*前字符出现多次
+                return  match(str,pattern,index1,index2+2)||            //当前字符出现0次
+                        match(str,pattern,index1+1,index2+2)||      //当前字符出现1次
+                        match(str,pattern,index1+1,index2);             //当前字符出现多次
             }
             else
                 return match(str,pattern,index1,index2+2);
