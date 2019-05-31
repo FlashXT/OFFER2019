@@ -14,7 +14,7 @@ import java.util.Arrays;
  *      ①比较操作：(n-1)+(n-2)+...+1=(n-1)*n/2,O(n^2);
  *      ②交换操作：0
  *      ③空间复杂度：0
- *      ④时间复杂度:O(1)
+ *      ④时间复杂度:O(n)
  * 2.最坏情况（原数组逆序）：
  *      ①比较操作：(n-1)+(n-2)+...+1=(n-1)*n/2,O(n^2);
  *      ②交换操作：(n-1)+(n-2)+...+1=(n-1)*n/2,O(n^2);
@@ -33,7 +33,7 @@ public class BubbleSort {
     //冒泡排序
     public static void BubbleSort(int [] arr){
         if(arr == null || arr.length < 2) return ;
-        int temp = 0;
+
         for(int i = 1; i < arr.length; i ++){
             for(int j = 0; j < arr.length - i ;j++){
                 if (arr[j] > arr[j+1]){

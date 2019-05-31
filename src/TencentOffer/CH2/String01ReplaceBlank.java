@@ -7,7 +7,7 @@ package TencentOffer.CH2;
 public class String01ReplaceBlank {
     public static void main(String [] args){
         String str = "We are happy.";
-        method1(str);
+//        method1(str);
         method2(str);
 
     }
@@ -47,6 +47,6 @@ public class String01ReplaceBlank {
                 }
         }
 
-//        System.out.println(temp);
+        System.out.println(temp);
     }
 }

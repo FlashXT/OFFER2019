@@ -17,11 +17,11 @@ import java.util.Arrays;
  * 2.最坏情况（原数组逆序）：
  *      ①比较操作：1+2+...+(n-1)=(n-1)*n/2,O(n^2);
  *      ②交换操作：1+2+...+(n-1)=(n-1)*n/2,O(n^2);
- *      ③空间复杂度：O(1)
- *      ④时间复杂度:O(n^2)
+ *      ③空间复杂度: O(1)
+ *      ④时间复杂度: O(n^2)
  *
  * 改进：在确定第i个数插入到(i-1)个有序数的位置时，由于前(i-1)个数有序，采用二分查找法确定第i个数
- *      的位置；此时插入排序的事件复杂度为O(nlog(n)).
+ *      的位置；此时插入排序的时间复杂度为O(nlog(n)).
  * Author:FlashXT;
  * Date:2019.3.12,Tuesday;
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
@@ -53,7 +53,7 @@ public class InsertSort {
     //二分插入排序
     public static void BinaryInsertSort(int [] arr){
         if(arr == null || arr.length < 2) return ;
-        int temp = 0;
+
         //i从1开始表示第一个数已经有序
         for(int i = 1; i < arr.length; i ++){
             if(arr[i] < arr[i-1]){
