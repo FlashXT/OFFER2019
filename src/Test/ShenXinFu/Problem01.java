@@ -10,7 +10,7 @@ import java.util.*;
  *****************************************************************/
 public class Problem01 {
     public static void main(String [] args){
-        String str = "3!hello wor\tL";
+        String str = "3!hello wor\tld!OVER";
 
         splitWord(str);
     }
@@ -24,17 +24,16 @@ public class Problem01 {
         int j = 0;
         for(int i = 0; i < str.length();i++){
             if(set.contains(str.charAt(i))){
-
 //                if(str.charAt(i) =='\''){
-//                    res.add(str.substring(j,++i)+"\\'");
+//                    res.add(str.substring(j,i)+"\\'");
 //                }
-//                if(str.charAt(i) =='\t'){
-//                    res.add(str.substring(j,++i)+"\\t");
+//                else if(str.charAt(i) =='\t'){
+//                    res.add(str.substring(j,i)+"\\t");
 //                }
 //                else {
-                    res.add(str.substring(j,++i));
+                    res.add(str.substring(j,i+1));
 //                }
-                j = i;
+                j = ++i;
             }
         }
         res.add(str.substring(j));
