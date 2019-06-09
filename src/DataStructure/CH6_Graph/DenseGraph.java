@@ -99,13 +99,13 @@ public class DenseGraph {
         System.out.println("Graph's Adjacency matrix:");
         System.out.print("\t");
         for(int i = 0; i< this.adjMatrix.length;i++){
-            System.out.print(i+"\t");
+            System.out.print(i+"\t\t");
         }
         System.out.println();
         for(int i = 0; i< this.adjMatrix.length;i++){
             System.out.print(i+"\t");
             for(int j = 0; j < this.adjMatrix[i].length;j++){
-                System.out.print(this.adjMatrix[i][j]+"\t");
+                System.out.printf("%3.2f\t",this.adjMatrix[i][j]);
             }
             System.out.println();
         }
