@@ -1,9 +1,9 @@
-package DataStructure.CH6_Graph.Graph;
+package DataStructure.CH6_Graph;
+
+import DataStructure.CH6_Graph.Edge;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.Iterator;
 
 //使用邻接矩阵创建图,邻接矩阵适合表示稠密图
 public class DenseGraph {
@@ -11,7 +11,7 @@ public class DenseGraph {
     public int nodenum;
     public int edgenum;
     boolean directed;
-    private double [][] adjMatrix ;
+    public double [][] adjMatrix ;
 
     public DenseGraph(int nodenum, boolean directed){
         this.nodenum = nodenum;
@@ -33,7 +33,7 @@ public class DenseGraph {
         }
     }
     public DenseGraph(String filepath) throws Exception {
-        Edge [] edgearr = ReadGraph(filepath);
+        Edge[] edgearr = ReadGraph(filepath);
         this.adjMatrix = new double[this.nodenum][this.nodenum];
         this.addedges(edgearr);
     }
@@ -72,8 +72,10 @@ public class DenseGraph {
             }
         }
     }
-    public  Edge[] ReadGraph(String filepath) throws Exception {
-
+    private   Edge[] ReadGraph(String filepath) throws Exception {
+        //文件格式如下：
+        // 第   1   行： 结点数 边数 0/1(表示是否是有向图)
+        // 第 2~边数 行： 结点1 结点2 weight (每一行表示一条边)
         FileReader fr = new FileReader(filepath);
         BufferedReader br = new BufferedReader(fr);
 

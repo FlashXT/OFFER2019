@@ -1,4 +1,6 @@
-package DataStructure.CH6_Graph.Graph;
+package DataStructure.CH6_Graph;
+
+import DataStructure.CH6_Graph.Edge;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -15,29 +17,29 @@ public class SparseGraph {
     public int nodenum;
     public int edgenum;
     public boolean directed;
-    private ArrayList<ArrayList<Edge>> list;
+    public ArrayList<ArrayList<Edge>> adjlist;
     public SparseGraph(int nodenum, boolean directed){
         this.nodenum = nodenum;
         this.edgenum = 0;
         this.directed = directed;
-        list = new ArrayList<ArrayList<Edge>>();
+        adjlist = new ArrayList<ArrayList<Edge>>();
         for(int i = 0; i < this.nodenum;i++){
-            list.add(new ArrayList<>());
+            adjlist.add(new ArrayList<>());
         }
 
     }
     public SparseGraph(String filepath) throws Exception {
         Edge [] edgearr = ReadGraph(filepath);
-        list = new ArrayList<ArrayList<Edge>>();
+        adjlist = new ArrayList<ArrayList<Edge>>();
         for(int i = 0; i < this.nodenum;i++){
-            list.add(new ArrayList<>());
+            adjlist.add(new ArrayList<>());
         }
         this.addedges(edgearr);
 
     }
     public SparseGraph(ArrayList<ArrayList<Edge>> list, boolean directed){
         this.directed = directed;
-        this.list = list;
+        this.adjlist = list;
         for(int i = 0; i < list.size();i++){
            this.edgenum+=list.get(i).size();
         }
@@ -53,10 +55,10 @@ public class SparseGraph {
         Edge edge = new Edge(from,to,weight);
         if(!hasEdge(edge)) this.edgenum++;
         if (from >= 0 && from < this.nodenum && to >= 0 && to < this.nodenum){
-            list.get(from).add(edge);
+            adjlist.get(from).add(edge);
             if(from!= to && !directed){
                 Edge Corredge = new Edge(to,from,weight);
-                list.get(to).add(Corredge);
+                adjlist.get(to).add(Corredge);
             }
             return true;
         }
@@ -64,8 +66,8 @@ public class SparseGraph {
     }
     public boolean hasEdge(Edge edge){
         if( edge.from >=0 && edge.from < this.nodenum && edge.to >=0 && edge.to < this.nodenum){
-            for(int i = 0; i < this.list.get(edge.from).size();i++){
-                if(this.list.get(edge.from).get(i).to == edge.to)
+            for(int i = 0; i < this.adjlist.get(edge.from).size();i++){
+                if(this.adjlist.get(edge.from).get(i).to == edge.to)
                     return true;
             }
         }
@@ -75,13 +77,15 @@ public class SparseGraph {
     }
     public void getEdge(int node){
         if(node >=0 && node <= this.nodenum){
-            for(int i = 0; i < list.get(node).size();i++){
-                System.out.println(node+"--"+list.get(node).get(i).weight+"-->"+list.get(node).get(i).to);
+            for(int i = 0; i < adjlist.get(node).size();i++){
+                System.out.println(node+"--"+adjlist.get(node).get(i).weight+"-->"+adjlist.get(node).get(i).to);
             }
         }
     }
-    public  Edge[] ReadGraph(String filepath) throws Exception {
-
+    private  Edge[] ReadGraph(String filepath) throws Exception {
+        //文件格式如下：
+        // 第   1   行： 结点数 边数 0/1(表示是否是有向图)
+        // 第 2~边数 行： 结点1 结点2 weight (每一行表示一条边)
         FileReader fr = new FileReader(filepath);
         BufferedReader br = new BufferedReader(fr);
 
@@ -103,10 +107,10 @@ public class SparseGraph {
     public void Print(){
 
         System.out.println("Graph's Adjacency List：");
-        for(int i = 0; i < list.size();i++){
+        for(int i = 0; i < adjlist.size();i++){
             System.out.print(i+"\t");
-            for(int j = 0; j < list.get(i).size();j++){
-                System.out.print("("+list.get(i).get(j).to+","+list.get(i).get(j).weight+")\t");
+            for(int j = 0; j < adjlist.get(i).size();j++){
+                System.out.print("("+adjlist.get(i).get(j).to+","+adjlist.get(i).get(j).weight+")\t");
             }
             System.out.println();
         }

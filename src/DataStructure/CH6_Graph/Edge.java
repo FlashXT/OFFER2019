@@ -1,4 +1,4 @@
-package DataStructure.CH6_Graph.Graph;
+package DataStructure.CH6_Graph;
 
 /*****************************************************************
  * @Author:FlashXT;
@@ -7,12 +7,13 @@ package DataStructure.CH6_Graph.Graph;
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
 public class Edge{
-    int from;
-    int to;
-    double weight;
+    public int from;
+    public int to;
+    public double weight;
     public Edge(int from,int to, double weight){
         this.from = from;
         this.to = to;
         this.weight = weight;
     }
+
 }

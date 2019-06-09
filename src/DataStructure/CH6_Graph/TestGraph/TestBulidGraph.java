@@ -1,4 +1,8 @@
-package DataStructure.CH6_Graph.Graph;
+package DataStructure.CH6_Graph.TestGraph;
+
+import DataStructure.CH6_Graph.DenseGraph;
+import DataStructure.CH6_Graph.Edge;
+import DataStructure.CH6_Graph.SparseGraph;
 
 import java.util.ArrayList;
 
