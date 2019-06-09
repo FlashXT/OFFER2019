@@ -1,23 +1,26 @@
 package DataStructure.CH6_Graph.Graph;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.Iterator;
 
 //使用邻接矩阵创建图,邻接矩阵适合表示稠密图
-public class Graph1 {
+public class DenseGraph {
 
     public int nodenum;
     public int edgenum;
     boolean directed;
     private double [][] adjMatrix ;
 
-    public Graph1(int nodenum,boolean directed){
+    public DenseGraph(int nodenum, boolean directed){
         this.nodenum = nodenum;
         this.edgenum = 0;
         this.directed = directed;
         this.adjMatrix = new double[nodenum][nodenum];
 
     }
-    public Graph1(double [][] adjmatrix, boolean directed){
+    public DenseGraph(double [][] adjmatrix, boolean directed){
         this.nodenum = adjmatrix.length;
         this.adjMatrix = adjmatrix;
         this.directed = directed;
@@ -27,6 +30,16 @@ public class Graph1 {
                 if(adjmatrix[i][j]!=0)
                     this.edgenum++;
             }
+        }
+    }
+    public DenseGraph(String filepath) throws Exception {
+        Edge [] edgearr = ReadGraph(filepath);
+        this.adjMatrix = new double[this.nodenum][this.nodenum];
+        this.addedges(edgearr);
+    }
+    public void addedges(Edge [] edgearr){
+        for(int i =0 ; i<edgearr.length;i++){
+            addedge(edgearr[i].from,edgearr[i].to,edgearr[i].weight);
         }
     }
     public void addedge(int n1,int n2,double weight){
@@ -59,7 +72,29 @@ public class Graph1 {
             }
         }
     }
+    public  Edge[] ReadGraph(String filepath) throws Exception {
+
+        FileReader fr = new FileReader(filepath);
+        BufferedReader br = new BufferedReader(fr);
+
+        String line = br.readLine();
+        String [] arr = line.split(" ");
+        this.nodenum = Integer.valueOf(arr[0]);
+
+        this.directed = Integer.valueOf(arr[2]) == 1? true:false;
+        Edge [] edgearr = new Edge[Integer.valueOf(arr[1])];
+        Edge temp;
+        for(int i = 0;i < edgearr.length;i++) {
+            line = br.readLine();
+            arr = line.split(" ");
+            temp = new Edge(Integer.valueOf(arr[0]), Integer.valueOf(arr[1]), Double.valueOf(arr[2]));
+            edgearr[i] = temp;
+        }
+        return edgearr;
+    }
     public void Print(){
+
+        System.out.println("Graph's Adjacency matrix:");
         System.out.print("\t");
         for(int i = 0; i< this.adjMatrix.length;i++){
             System.out.print(i+"\t");
@@ -72,5 +107,6 @@ public class Graph1 {
             }
             System.out.println();
         }
+
     }
 }
