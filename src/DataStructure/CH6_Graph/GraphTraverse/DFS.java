@@ -37,7 +37,7 @@ public class DFS{
         System.out.print(node+"\t");
 
         for (int j = 0; j < g.nodenum;j++){
-            if( !visited[j]&& g.adjMatrix[node][j]!=0)
+            if( !visited[j]&& !Double.isNaN(g.adjMatrix[node][j]))
                 DFSDg(g,j);
         }
 
@@ -87,7 +87,7 @@ public class DFS{
             temp =i;
             //然后转向与该结点连接且未遍历过的结点
             for(int j = 0; j < visited.length;j++){
-                if(!visited[j]&& g.adjMatrix[i][j]!=0){
+                if(!visited[j]&& !Double.isNaN(g.adjMatrix[i][j])){
                     //记录路径
                     path[j]=i;
                     //转向j

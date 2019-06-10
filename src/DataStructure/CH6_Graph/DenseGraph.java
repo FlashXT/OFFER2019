@@ -1,6 +1,5 @@
 package DataStructure.CH6_Graph;
 
-import DataStructure.CH6_Graph.Edge;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -34,7 +33,13 @@ public class DenseGraph {
     }
     public DenseGraph(String filepath) throws Exception {
         Edge[] edgearr = ReadGraph(filepath);
+        this.edgenum = edgearr.length;
         this.adjMatrix = new double[this.nodenum][this.nodenum];
+        for(int i=0; i< this.nodenum;i++){
+            for(int j = 0; j < this.nodenum;j++){
+                this.adjMatrix[i][j] = Double.NaN;
+            }
+        }
         this.addedges(edgearr);
     }
     public void addedges(Edge [] edgearr){
@@ -105,7 +110,7 @@ public class DenseGraph {
         for(int i = 0; i< this.adjMatrix.length;i++){
             System.out.print(i+"\t");
             for(int j = 0; j < this.adjMatrix[i].length;j++){
-                System.out.printf("%3.2f\t",this.adjMatrix[i][j]);
+                System.out.printf("%-4.2f\t",this.adjMatrix[i][j]);
             }
             System.out.println();
         }
