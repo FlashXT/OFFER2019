@@ -1,4 +1,4 @@
-package toutiao;
+package Test.toutiao;
 
 import java.util.Scanner;
 
