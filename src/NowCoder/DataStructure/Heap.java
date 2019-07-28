@@ -20,6 +20,7 @@ class Test{
     }
 }
 public class Heap {
+
     public static void main(String [] args){
         //小顶堆
         Comparator<Test> comp1 = new Comparator<Test>() {

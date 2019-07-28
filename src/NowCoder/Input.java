@@ -48,6 +48,7 @@ public class Input{
         String [] res = str.split("\\s+");// \\s+ 匹配多个空格
         for(int i = 0; i < res.length;i++){
             res[i] = res[i].trim();//去除前后空格
+
         }
 
     }
