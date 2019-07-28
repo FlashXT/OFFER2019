@@ -27,7 +27,7 @@ public class BFS {
             visited[node] = true;
             System.out.print(node+"\t");
             for(int i = 0; i < g.adjMatrix[node].length;i++){
-                if(!visited[i] && g.adjMatrix[node][i]!=0){
+                if(!visited[i] && !Double.isNaN(g.adjMatrix[node][i])){
                     if(!queue.contains(i)){
                         path[i] = node;
                         queue.offer(i);

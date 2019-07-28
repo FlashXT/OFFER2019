@@ -6,7 +6,6 @@ import DataStructure.CH6_Graph.GraphTraverse.DFS;
 import DataStructure.CH6_Graph.GraphTraverse.FindPath;
 import DataStructure.CH6_Graph.SparseGraph;
 
-import java.util.ArrayList;
 
 /*****************************************************************
  * @Author:FlashXT;
@@ -21,15 +20,15 @@ public class BulidGraph {
         //建立稀疏图
         SparseGraph sg = new SparseGraph(filepath);
         sg.Print();
-        System.out.println(BFS.BFS(sg));
+//        System.out.println(BFS.BFS(sg));
 //        System.out.println(sg.edgenum);
-//        System.out.println(DFS.DFSTraverseNR(sg));
+        System.out.println(DFS.DFSTraverseNR(sg));
 //        System.out.println(DFS.DFSTraverse(sg));
         //建立稠密图
-//        DenseGraph dg = new DenseGraph(filepath);
-//        dg.Print();
-//        System.out.println(DFS.DFSTraverseNR(dg));
-//        System.out.println(dg.edgenum);
+        DenseGraph dg = new DenseGraph(filepath);
+        dg.Print();
+        System.out.println(DFS.DFSTraverseNR(dg));
+        System.out.println(dg.edgenum);
 //        System.out.println(DFS.DFSTraverse(dg));
         //寻找路径
 //        FindPath.FindPath(dg,1,7);

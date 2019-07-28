@@ -110,7 +110,7 @@ public class SparseGraph {
         for(int i = 0; i < adjlist.size();i++){
             System.out.print(i+"\t");
             for(int j = 0; j < adjlist.get(i).size();j++){
-                System.out.print("("+adjlist.get(i).get(j).to+","+adjlist.get(i).get(j).weight+")\t");
+                System.out.printf("(%2d,%4.2f)\t",adjlist.get(i).get(j).to,adjlist.get(i).get(j).weight);
             }
             System.out.println();
         }
