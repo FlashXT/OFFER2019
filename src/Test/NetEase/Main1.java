@@ -8,24 +8,21 @@ public class Main1 {
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        int k = 0;
-        String res ="";
-        while(k< n){
-            res += scan.nextInt()+" ";
-            k++;
-        }
+        String res = "";
+        for(int i = 0; i < n;i ++)
+            res+=scan.nextInt();
         int nums = Factorial(n);
         int m = getPermutation( n, res);
-        System.out.println(getPermutation(n,nums-m));
+        System.out.println(getPermutation(n,nums+1-m));
 
     }
     public static int getPermutation(int n, String str) {
         int res = 0;
-        for(int i = 0; i < str.length()-1;i+=2){
+        for(int i = 0; i < n;i++){
             int temp = Integer.valueOf(str.charAt(i)-'0');
-            res+= Math.abs(temp-i-1)*Factorial(str.length()-i-3);
+            res+= Math.abs(temp-i-1)*Factorial(str.length()-i-1);
         }
-        return res;
+        return res == 0? 1:res;
     }
     public static String getPermutation(int n, int k) {
         List<Integer> nums = new LinkedList<>();
