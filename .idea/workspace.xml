@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0eef9a-0015-4c10-af38-6e1df0bfc458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/HuaWei/HuaWeiOFFER1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/HuaWei/HuaWeiOFFER2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/TrendTest/Problem1/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/HuaWei/HuaWeiTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/HuaWei/HuaWeiTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NowCoder/DataStructure/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NowCoder/DataStructure/Heap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +18,25 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataStructure/CH5_Tree/TrieTree/TrieTree.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="361">
+              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Test/HuaWei/HuaWeiOFFER2.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/Adder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="-13">
+              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#dataprocess#0;class#Adder#0" />
+                <element signature="method#addpart#0;class#Adder#0" />
+                <element signature="method#add#0;class#Adder#0" />
               </folding>
             </state>
           </provider>
@@ -60,14 +62,18 @@
         <option value="$PROJECT_DIR$/src/Test/NetEase/Main1.java" />
         <option value="$PROJECT_DIR$/src/Test/HuaWei/HuaWeiTest2.java" />
         <option value="$PROJECT_DIR$/src/Test/HuaWei/HuaWeiOFFER2.java" />
+        <option value="$PROJECT_DIR$/src/Test/TrendTest/Main1.java" />
+        <option value="$PROJECT_DIR$/src/Test/TrendTest/Adder.java" />
+        <option value="$PROJECT_DIR$/src/Test/TrendTest/Problem1/Adder.java" />
+        <option value="$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1564" />
-    <option name="y" value="43" />
-    <option name="width" value="1420" />
-    <option name="height" value="654" />
+    <option name="x" value="1786" />
+    <option name="y" value="190" />
+    <option name="width" value="1145" />
+    <option name="height" value="655" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -94,12 +100,6 @@
               <item name="OFFER2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="OFFER2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OFFER2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OFFER2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -107,7 +107,23 @@
               <item name="OFFER2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="HuaWei" type="462c0819:PsiDirectoryNode" />
+              <item name="TrendTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OFFER2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OFFER2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="TrendTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OFFER2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OFFER2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="TrendTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,13 +163,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuaWeiTest1">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructure.CH1_Sort.BubbleSort" />
+  <component name="RunManager" selected="Application.MoneyNums">
+    <configuration name="Adder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TrendTest.Problem1.Adder" />
       <module name="OFFER2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructure.CH1_Sort.*" />
+          <option name="PATTERN" value="Test.TrendTest.Problem1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.PinDuoDuo.Problem3" />
+    <configuration name="MoneyNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TrendTest.Problem2.MoneyNums" />
       <module name="OFFER2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.PinDuoDuo.*" />
+          <option name="PATTERN" value="Test.TrendTest.Problem2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoneyNums" />
+        <item itemvalue="Application.Adder" />
         <item itemvalue="Application.HuaWeiTest1" />
         <item itemvalue="Application.HuaWeiTest2" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Problem3" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +260,9 @@
       <workItem from="1564878405199" duration="7358000" />
       <workItem from="1564979063064" duration="41000" />
       <workItem from="1565175353887" duration="4918000" />
+      <workItem from="1565260921507" duration="344000" />
+      <workItem from="1565261983252" duration="9189000" />
+      <workItem from="1565271873512" duration="3058000" />
     </task>
     <task id="LOCAL-00001" summary="NetEase,2018.8.3,turboman.">
       <created>1564823839932</created>
@@ -266,17 +285,33 @@
       <option name="project" value="LOCAL" />
       <updated>1564885888835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="NetEase,2018.8.4,turboman.">
+      <created>1565260964722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565260964722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23051000" />
+    <option name="totallyTimeSpent" value="35642000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1489" y="25" width="1551" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21196014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23189369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,18 +319,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1785235" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.504698" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31140938" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45771813" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -329,6 +364,72 @@
           <line>20</line>
           <properties />
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/Adder.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/Adder.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/Adder.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/Adder.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/Adder.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -402,13 +503,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/HuaWei/HuaWeiOFFER1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/HuaWei/HuaWeiOFFER1.java" />
     <entry file="file://$PROJECT_DIR$/src/Test/HuaWei/HuaWeiTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -423,20 +518,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/HuaWei/HuaWeiOFFER2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/微信图片_20190808212731.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/Problem02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/Problem01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructure/CH5_Tree/TrieTree/TrieTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/HuaWei/HuaWeiOFFER2.java">
+    <entry file="file://$PROJECT_DIR$/src/Test/TrendTest/Problem2/Problem1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TrendTest/Problem1/Adder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="-13">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#dataprocess#0;class#Adder#0" />
+            <element signature="method#addpart#0;class#Adder#0" />
+            <element signature="method#add#0;class#Adder#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TrendTest/Problem2/MoneyNums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
         </state>
       </provider>
     </entry>

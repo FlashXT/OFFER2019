@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
 //实现常用的大顶堆和小顶堆
-//也可以将Test定义在 Main1 类中，但需要定义为静态内部类
+//也可以将Test定义在 Adder 类中，但需要定义为静态内部类
 class Test{
     int att1;
     int att2;
