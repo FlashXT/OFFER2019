@@ -17,10 +17,10 @@ public class HuaWeiTest2 {
         //构造大小字母对应出现次数的数组
         for(int i = 0; i < chararray.length;i++){
             if( chararray[i] >= 'a' && chararray[i] <='z'){
-                lower[chararray[i]-97] += 1;
+                lower[chararray[i]-'a'] += 1;
             }
             if( chararray[i] >= 'A' && chararray[i] <='Z'){
-                upper[chararray[i]-65] += 1;
+                upper[chararray[i]-'A'] += 1;
             }
         }
         //如果没有大小写同时出现的字符，返回"Not Found"
