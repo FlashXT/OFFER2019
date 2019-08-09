@@ -15,14 +15,14 @@ public class MoneyNums {
         int [] nums = {6,5,4,3,2,1};
         int [] left = {6,5,4,3,2,1};
         System.out.println(Arrays.toString(money));
-        Money(11,money,left,nums,0);
+        Money(100,money,left,0,nums,0);
         System.out.println(res);
 
 
     }
-    public static void Money(int sum,int [] money,int [] left,int [] nums,int currsum){
+    public static boolean Money(int sum,int [] money,int [] left,int index,int [] nums,int currsum){
         if(currsum > sum) {
-            return ;
+            return false;
         }
 
         if(currsum == sum){
@@ -31,19 +31,31 @@ public class MoneyNums {
             for(int i = 0; i< nums.length;i++)
                 System.out.print(nums[i]-left[i]+"\t");
             System.out.println();
-            return ;
+            return true;
         }
-        for(int i = 0; i< money.length;i++){
+        for(int i = index; i< money.length;i++){
             if(left[i] >0){
                 for(int j = 1; j <= left[i];j++){
                     currsum+=money[i]*j;
                     left[i]-=j;
-                    Money(sum,money,left,nums,currsum);
-                    currsum-=money[i]*j;
-                    left[i]+=j;
+                    //Money()返回false,表示currsum已经大于sum,没必要继续在当前面值继续尝试，
+                    //因此回溯后，break剪枝减少搜索空间;
+                    //Money的参数index用于去除重复的解
+                    if(!Money(sum,money,left,i,nums,currsum)){
+                        currsum-=money[i]*j;
+                        left[i]+=j;
+                        break;
+                    }
+                    else{
+                        currsum-=money[i]*j;
+                        left[i]+=j;
+                    }
+
                 }
             }
 
         }
+        if(currsum == sum) return true;
+        return  false;
     }
 }
