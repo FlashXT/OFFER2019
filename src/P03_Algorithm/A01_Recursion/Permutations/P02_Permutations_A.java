@@ -25,6 +25,7 @@ public class P02_Permutations_A {
           }
           for(int i = index ;i < arr.length;i++){
               swap(arr,index,i);            //递归试探
+
               permutation(arr,res,index+1);
               swap(arr,index,i);            //回溯
           }
