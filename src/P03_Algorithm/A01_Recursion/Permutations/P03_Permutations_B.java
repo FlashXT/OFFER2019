@@ -11,7 +11,7 @@ import java.util.*;
 //求字符串"abcdef"的全排列（元素有重复）
 public class P03_Permutations_B {
     public static void main(String [] args){
-        String str = "bab";
+        String str = "abcb";
         ArrayList<String> res= new ArrayList<>();
         permutation1(str.toCharArray(),res,0);
 //        res = permutation2(str.toCharArray());

@@ -1,6 +1,6 @@
 package P03_Algorithm.A01_Recursion.OtherProblem;
 //对一个整数进行加法划分
-public class AdditiveDivision {
+public class P01_AdditiveDivision {
     public static void main(String [] args){
         int num = 6;
         int [] arr = new int [num];
@@ -18,8 +18,6 @@ public class AdditiveDivision {
             arr[pos] = i;
             AddDivision(num - i,arr,pos+1); //试探
         }
-
-
 
     }
 }
