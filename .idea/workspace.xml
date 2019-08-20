@@ -158,23 +158,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem">
-    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.BeiKe.Main1" />
-      <module name="OFFER2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.BeiKe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.createThread">
     <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Test360.Main2" />
-      <module name="OFFER2019" />
+      <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.Test360.*" />
@@ -187,7 +174,7 @@
     </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.BeiKe.Main2" />
-      <module name="OFFER2019" />
+      <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.BeiKe.*" />
@@ -200,7 +187,7 @@
     </configuration>
     <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.BeiKe.Main3" />
-      <module name="OFFER2019" />
+      <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.BeiKe.*" />
@@ -213,7 +200,7 @@
     </configuration>
     <configuration name="Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.LiuLiShuo.Problem" />
-      <module name="OFFER2019" />
+      <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.LiuLiShuo.*" />
@@ -224,13 +211,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="createThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA.JUC.J01_createThread.createThread" />
+      <module name="DataStruAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAVA.JUC.J01_createThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.createThread" />
         <item itemvalue="Application.Problem" />
         <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main1 (1)" />
       </list>
     </recent_temporary>
   </component>
