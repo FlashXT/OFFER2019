@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OFFER2019.iml" filepath="$PROJECT_DIR$/OFFER2019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStruAlgo.iml" filepath="$PROJECT_DIR$/DataStruAlgo.iml" />
     </modules>
   </component>
 </project>
