@@ -80,7 +80,7 @@ public class LCABST03 {
         boolean b = false;
         //先去左子树找
         if(root.leftnode != null) b = nodePath(root.leftnode,stack,node);
-        //左子树找不到并且右子树不为空的情况下才去找
+        //左子树找不到并且右子树不为空的情况下才去右子树找
         if(!b && root.rightnode != null) b = nodePath(root.rightnode,stack,node);
         //左右都找不到，弹出栈顶元素
         if(!b) stack.pop();
