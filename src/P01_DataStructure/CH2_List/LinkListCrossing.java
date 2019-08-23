@@ -57,7 +57,7 @@ public class LinkListCrossing {
         System.out.println(isListCrossing(list1,list2));
 
     }
-    public static Node  isListCrossing(LinkedList list1,LinkedList list2){
+    public static Node  isListCrossing(LinkedList list1, LinkedList list2){
 
         Node ptr1 = list1.head;
         Node ptr2 = list2.head;
@@ -79,7 +79,7 @@ public class LinkListCrossing {
     }
 
     //两个无环链表的相交问题
-    public static Node NoLoopListCrossing(LinkedList list1,LinkedList list2){
+    public static Node NoLoopListCrossing(LinkedList list1, LinkedList list2){
         Node ptr1 = list1.head;
         Node ptr2 = list2.head;
         int size = list1.size - list2.size;
@@ -103,7 +103,7 @@ public class LinkListCrossing {
         return null;
     }
     //两个有环的链表的相交问题
-    public static Node TwoLoopListCrossing(LinkedList list1,LinkedList list2){
+    public static Node TwoLoopListCrossing(LinkedList list1, LinkedList list2){
         Node loopnode1 = getLoopNode(list1.head);
         Node loopnode2 = getLoopNode(list2.head);
         Node ptr1,ptr2;
@@ -162,7 +162,7 @@ public class LinkListCrossing {
         return node1;
     }
 
-    public static void makeCircle(LinkedList list,int key){
+    public static void makeCircle(LinkedList list, int key){
         Node ptr1 = list.head;
         while((int)ptr1.item != key){
             ptr1 = ptr1.next;
@@ -175,7 +175,7 @@ public class LinkListCrossing {
     }
 
     //测试函数：链表相交(list1 和 list2 在list1 值为 item 的结点处相交)
-    public static void makeNoLoopCrossing(LinkedList list1,LinkedList list2, int item,boolean loop){
+    public static void makeNoLoopCrossing(LinkedList list1, LinkedList list2, int item, boolean loop){
         //loop 指示list1是否成环
         if (loop)
             makeCircle(list1,item);

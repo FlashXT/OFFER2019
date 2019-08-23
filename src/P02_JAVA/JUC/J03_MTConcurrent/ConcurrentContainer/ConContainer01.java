@@ -24,7 +24,7 @@ public class ConContainer01 {
     public static void testHashmap(){
         /********************************************************************************
          * ConcurrentHashMap(https://www.cnblogs.com/dolphin0520/p/3932905.html)
-         * ConcurrentHashMap代替同步的Map(Collections.synchronized(new HashMap()))，
+         * ConcurrentHashMap代替同步的Map(Collections.synchronized(new TestHashMap()))，
          * 众所周知,HashMap是根据散列值分段存储的，同步Map在同步的时候锁住了所有的段，而
          * ConcurrentHashMap加锁的时候根据散列值锁住了散列值锁对应的那段，因此提高了并发性能。
          * ConcurrentHashMap也增加了对常用复合操作的支持，比如"若没有则添加"：putIfAbsent()，

@@ -6,7 +6,7 @@ import java.util.Vector;
 /************************************************************************************
  * 同步容器：https://www.cnblogs.com/dolphin0520/p/3933404.html
  * 在Java中，同步容器主要包括2类：
- * 　1）Vector、Stack、HashTable；
+ * 　1）Vector、TestStack、HashTable；
  * 　　 Vector实现了List接口，Vector实际上就是一个数组，和ArrayList类似，但是Vector中的方法
  *        都是synchronized方法，即进行了同步措施。
  *     Stack也是一个同步容器，它的方法也用synchronized进行了同步，它实际上是继承于Vector类。

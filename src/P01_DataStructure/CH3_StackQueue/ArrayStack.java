@@ -26,14 +26,14 @@ public class ArrayStack<Item> implements Iterable<Item> {
      }
      public Item peek(){
          if(size == 0)
-             throw new RuntimeException("Stack is null");
+             throw new RuntimeException("TestStack is null");
          return stack[size-1];
      }
      public Item pop(){
          if(size == stack.length/4)
              resize(stack.length/2);
          if(size == 0)
-             throw new RuntimeException("Stack is null");
+             throw new RuntimeException("TestStack is null");
 
          return  stack[--size];
      }

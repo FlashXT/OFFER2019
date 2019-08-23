@@ -25,7 +25,7 @@ public class LinkedListPartitation {
     public static void main(String [] args){
         int [] arr = {6,7,2,3,4,10,10,12,34,32};
         int pivot = 10;
-        LinkedList <Integer> list = new LinkedList<>();
+        LinkedList<Integer> list = new LinkedList<>();
         for(int item:arr){
             list.tailInsert(item);
         }
@@ -57,7 +57,7 @@ public class LinkedListPartitation {
 
     }
 
-    public static LinkedList PartitationPro(LinkedList <Integer> list,int pivot){
+    public static LinkedList PartitationPro(LinkedList<Integer> list, int pivot){
         LinkedList<Integer> linklist = new LinkedList<>();
         Node nodep = new Node(pivot);
         Node node ;
@@ -89,7 +89,7 @@ public class LinkedListPartitation {
         return  linklist;
     }
 
-    public static LinkedList Partitation2(LinkedList <Integer> list,int pivot){
+    public static LinkedList Partitation2(LinkedList<Integer> list, int pivot){
         LinkedList<Integer> lessthan = new LinkedList<>();
         LinkedList<Integer> equal = new LinkedList<>();
         LinkedList<Integer> bigthan = new LinkedList<>();
@@ -145,7 +145,7 @@ public class LinkedListPartitation {
 
     }
 
-    public static void Partitation(LinkedList <Integer> list){
+    public static void Partitation(LinkedList<Integer> list){
         int [] arr = new int[list.size];
         Node ptr = list.head;
         int i = 0;

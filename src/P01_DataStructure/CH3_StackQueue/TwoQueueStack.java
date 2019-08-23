@@ -12,13 +12,13 @@ public class TwoQueueStack<Item>{
     }
     public void push(Item item){
         if(queue1.isFull())
-            throw new RuntimeException("Queue is Full!");
+            throw new RuntimeException("TestQueue is Full!");
         queue1.enqueue(item);
 
     }
     public Item pop(){
         if(queue1.isEmpty())
-            throw new RuntimeException("Stack in empty!");
+            throw new RuntimeException("TestStack in empty!");
 
         while(queue1.size() != 1){
             queue2.enqueue(queue1.dequeue());
@@ -32,16 +32,17 @@ public class TwoQueueStack<Item>{
     }
     public Item peek(){
         if(queue1.isEmpty()){
-            throw new RuntimeException("Stack in empty!");
+            throw new RuntimeException("TestStack in empty!");
         }
 
         while(queue1.size() != 1){
             queue2.enqueue(queue1.dequeue());
         }
-        Item item = queue1.peek();
+        Item item = queue1.dequeue();
         ArrayQueue<Item> temp = queue1;
         queue1 = queue2;
         queue2 = temp;
+        queue1.enqueue(item);
         return item;
 
     }

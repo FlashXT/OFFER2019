@@ -30,9 +30,9 @@ public class TwoStackQueue<Item> {
             stack2.push(stack.pop());
         }
         Item item = stack2.peek();
-        ArrayStack<Item> temp = stack;
-        stack = stack2;
-        stack2 = temp;
+        while(!stack2.isEmpty()){
+            stack.push(stack2.pop());
+        }
         return item;
     }
     public int size(){

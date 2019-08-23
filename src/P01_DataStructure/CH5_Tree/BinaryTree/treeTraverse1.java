@@ -2,6 +2,8 @@ package P01_DataStructure.CH5_Tree.BinaryTree;
 //二叉树的非递归遍历
 import P01_DataStructure.CH3_StackQueue.ArrayStack;
 
+import java.util.Stack;
+
 public class treeTraverse1 {
     public static void main(String [] args){
         Integer [] arr = {1,2,3,4,5,6,7};
@@ -152,7 +154,7 @@ public class treeTraverse1 {
         if(temp != null){
             while(!stack.isEmpty()){
                 temp = stack.pop();
-                //stack中按stack出栈的元素的顺序压入元素(中右左)
+                //stack2中按stack出栈的元素的顺序压入元素(中右左)
                 stack2.push(temp);
                 //stack栈中，先压入自身，再压入左孩子，最后压入右孩子
                 if(temp.leftnode != null){
@@ -168,5 +170,30 @@ public class treeTraverse1 {
             }
             System.out.println();
         }
+    }
+    public static void posTraverse2(TreeNode root){
+        Stack<TreeNode> stack = new Stack<>();
+        //c指向栈顶元素，h指向刚打印过的元素
+        TreeNode h = root,c=null;
+        if(root!=null){
+            stack.push(h);
+            while(!stack.isEmpty()){
+                c = stack.peek();
+                if(c.leftnode!= null && c.leftnode!=h && c.rightnode!=h){
+                    stack.push(c.leftnode);
+                }
+                else if(c.rightnode!=null && c.rightnode!=h){
+                    stack.push(c.rightnode);
+                }else{
+                    c = stack.pop();
+                    h=c;
+                    System.out.print(h.item+"\t");
+                }
+            }
+        }
+        stack.push(h);
+        TreeNode temp = root;
+
+        System.out.println();
     }
 }

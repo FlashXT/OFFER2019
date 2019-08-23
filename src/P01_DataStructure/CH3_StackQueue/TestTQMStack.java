@@ -10,6 +10,7 @@ public class TestTQMStack {
         }
         System.out.println(tqs.pop());
         System.out.println(tqs.peek());
+        System.out.println();
 
     }
 

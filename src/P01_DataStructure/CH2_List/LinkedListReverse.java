@@ -11,14 +11,17 @@ public class LinkedListReverse {
         }
         Iterator iter = list.iterator();
         while(iter.hasNext()){
-            System.out.println(iter.next());
+            System.out.print(iter.next());
         }
-        System.out.println("P01_DataStructure.CH2_List Reversed:");
+        System.out.println();
+
+        System.out.println("Reversed:");
         list.Reverse();
         Iterator iter2 =list.iterator();
         while(iter2.hasNext()){
-            System.out.println(iter2.next());
+            System.out.print(iter2.next());
         }
+        System.out.println();
     }
 
 }

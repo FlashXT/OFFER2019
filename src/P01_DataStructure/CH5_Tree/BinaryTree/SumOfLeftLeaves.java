@@ -17,6 +17,7 @@ public class SumOfLeftLeaves {
     public static int SumofLeftLeaves(TreeNode<Integer> root){
         if(root == null) return 0;
         if(root.leftnode == null) return SumofLeftLeaves(root.rightnode);
+        //如果是叶子结点
         if(root.leftnode.leftnode == null && root.leftnode.rightnode == null)
               return (Integer)root.leftnode.item+SumofLeftLeaves(root.rightnode);
 

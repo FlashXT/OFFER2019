@@ -11,6 +11,7 @@ public class TestTSMQueue {
         tsq.enqueue(100);
         tsq.dequeue();tsq.dequeue();
         System.out.println(tsq.peek());
+        System.out.println();
 
 
     }

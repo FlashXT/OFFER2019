@@ -61,7 +61,7 @@ public class LinkListCircle {
         return ptr1;
 
     }
-    public static void makeCircle(LinkedList list,int key){
+    public static void makeCircle(LinkedList list, int key){
         Node ptr1 = list.head;
         while((int)ptr1.item != key){
             ptr1 = ptr1.next;

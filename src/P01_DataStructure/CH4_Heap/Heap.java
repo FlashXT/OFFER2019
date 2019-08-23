@@ -31,30 +31,37 @@ import java.util.*;
 public  class Heap{
 
    public static void main(String [] args){
-       PriorityQueue<Student> heap=new PriorityQueue<>(new StuComparator());
-       Student stu1 = new Student(01,22,"FlashXT");
-       Student stu2 = new Student(02,23,"turboman");
-       Student stu3 = new Student(03,24,"XiaoMing");
-       Student stu4 = new Student(04,24,"XiaoHong");
-       heap.add(stu1);
-       heap.add(stu2);
-       heap.add(stu3);
-       heap.add(stu4);
-       System.out.println(heap);
-       System.out.println(heap.poll());
-       System.out.println(heap.poll());
-       System.out.println(heap.contains(stu1));
-       System.out.println(heap.contains(stu2));
-
+//       PriorityQueue<Student> heap=new PriorityQueue<>(new StuComparator());
+//       Student stu1 = new Student(01,22,"FlashXT");
+//       Student stu2 = new Student(02,23,"turboman");
+//       Student stu3 = new Student(03,24,"XiaoMing");
+//       Student stu4 = new Student(04,24,"XiaoHong");
+//       heap.add(stu1);
+//       heap.add(stu2);
+//       heap.add(stu3);
+//       heap.add(stu4);
+//       System.out.println(heap);
+//       System.out.println(heap.poll());
+//       System.out.println(heap.poll());
+//       System.out.println(heap.contains(stu1));
+//       System.out.println(heap.contains(stu2));
+//
        Integer [] array = {2,43,44,12,43,12,45,3,89,78};
        ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(array));
-       Iterator iter = arrayList.iterator();
-       while(iter.hasNext()){
-           System.out.println(iter.next());
-       }
-
-       PriorityQueue<Integer> heap2=new PriorityQueue(arrayList);
-       System.out.println(heap2);
+//       Iterator iter = arrayList.iterator();
+//       while(iter.hasNext()){
+//           System.out.println(iter.next());
+//       }
+//       Comparator<Integer> com = new Comparator<Integer>() {
+//           @Override
+//           public int compare(Integer o1, Integer o2) {
+//               return o2-o1;
+//           }
+//       };
+       PriorityQueue<Integer> heap2=new PriorityQueue();
+       heap2.addAll(arrayList);
+       while(heap2.size()!=0)
+            System.out.println(heap2.poll());
 
 
    }

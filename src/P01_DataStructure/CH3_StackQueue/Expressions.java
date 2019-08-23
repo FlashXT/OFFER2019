@@ -85,7 +85,7 @@ public class Expressions {
                     case 0:
                         opstack.pop();
                         break;
-                     //当前运算符优先级大于栈顶运算符
+                     //当前运算符优先级小于栈顶运算符
                     case -1:
                         op = opstack.pop();
                         while(oPriority(ch.charAt(0),op) == -1){

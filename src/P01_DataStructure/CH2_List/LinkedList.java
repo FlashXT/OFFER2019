@@ -31,7 +31,7 @@ public class LinkedList<Item>  implements Iterable<Item>{
         size++;
 
     }
-    //链表尾插插入结点
+    //链表尾插入结点
     public void tailInsert(Node node){
         if(head == null){
             head = node;
@@ -88,7 +88,6 @@ public class LinkedList<Item>  implements Iterable<Item>{
     public void Reverse(){
 
         head = ReverseList(head);
-
 
     }
     //单链表反转

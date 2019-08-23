@@ -13,13 +13,13 @@ public class ArrayQueue<Item>  {
     }
     public void enqueue(Item item){
         if(this.isFull())
-            throw new RuntimeException("Queue is full!");
+            throw new RuntimeException("TestQueue is full!");
         queue[tail]=item;
         tail = (tail+1)%queue.length;
     }
     public Item dequeue(){
         if(this.isEmpty())
-            throw new RuntimeException("Queue is empty!");
+            throw new RuntimeException("TestQueue is empty!");
         Item item = queue[head];
         head = (head+1)%queue.length;
         return item;
@@ -28,7 +28,7 @@ public class ArrayQueue<Item>  {
     }
     public Item peek(){
         if(this.isEmpty())
-            throw new RuntimeException("Queue is empty!");
+            throw new RuntimeException("TestQueue is empty!");
         return queue[head];
 
     }
