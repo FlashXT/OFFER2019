@@ -1,8 +1,5 @@
-package P05_CompanyCodeExam.JD;
+package P05_CompanyCodeExam.JD.P05Maze;
 
-import sun.util.locale.provider.FallbackLocaleProviderAdapter;
-
-import javax.xml.stream.FactoryConfigurationError;
 import java.util.Scanner;
 
 /*****************************************************************
@@ -12,21 +9,10 @@ import java.util.Scanner;
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
 
-/*****************************************************************
- * 输入：
- * 2
- * 2 2
- * S#
- * #.
- * 3 3
- * ...
- * ###
- * #S#
- * 输出：
- * No
- * Yes
- *******************************************************************/
-public class Main2 {
+/*
+思路：分情况讨论
+ */
+public class Main1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
