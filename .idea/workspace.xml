@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0eef9a-0015-4c10-af38-6e1df0bfc458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1Improve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/testCase.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P06_MathematicalLaw/CatalanNumber/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P06_MathematicalLaw/CatalanNumber/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-828">
-              <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1Improve.java">
+        <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="230">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -63,10 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/Recursion/P03_isSameString.java" />
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/Recursion/BasicProblem/P03_isSameString.java" />
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/Recursion/Permutations/P01_GetBallMethod.java" />
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/Recursion/Permutations/P02_Permutations_A.java" />
         <option value="$PROJECT_DIR$/src/P03_Algorithm/Recursion/Permutations/P03_Permutations_B.java" />
         <option value="$PROJECT_DIR$/src/P03_Algorithm/Recursion/Permutations/StringFullPermutation.java" />
         <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/Permutations/P02_Permutations_A.java" />
@@ -114,12 +101,16 @@
         <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/testCase.txt" />
         <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1.java" />
         <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1Improve.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Main.java" />
+        <option value="$PROJECT_DIR$/src/P06_MathematicalLaw/Test.java" />
+        <option value="$PROJECT_DIR$/src/P06_MathematicalLaw/CatalanNumber/Test.java" />
+        <option value="$PROJECT_DIR$/src/P06_MathematicalLaw/Test2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="185" />
+    <option name="y" value="50" />
     <option name="width" value="1312" />
     <option name="height" value="847" />
   </component>
@@ -131,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,35 +139,13 @@
               <item name="DataStruAlgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStruAlgo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="P01_DataStructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStruAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStruAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="P05_CompanyCodeExam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStruAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStruAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="P05_CompanyCodeExam" type="462c0819:PsiDirectoryNode" />
-              <item name="JD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStruAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStruAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="P05_CompanyCodeExam" type="462c0819:PsiDirectoryNode" />
-              <item name="JD" type="462c0819:PsiDirectoryNode" />
-              <item name="P05Maze" type="462c0819:PsiDirectoryNode" />
+              <item name="P06_MathematicalLaw" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,6 +160,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\IDEAProjects\DataStruAlgo\src\P05_CompanyCodeExam\ByteDance\Problem02" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="P05_CompanyCodeExam.JD.P05Maze" />
       <recent name="P03_Algorithm.A01_Recursion.OtherProblem" />
@@ -330,7 +303,9 @@
       <workItem from="1566457227454" duration="7187000" />
       <workItem from="1566466881407" duration="10431000" />
       <workItem from="1566521035030" duration="33839000" />
-      <workItem from="1566655658353" duration="2591000" />
+      <workItem from="1566655658353" duration="2673000" />
+      <workItem from="1566709223436" duration="45000" />
+      <workItem from="1566741508603" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="NetEase,2018.8.3,turboman.">
       <created>1564823839932</created>
@@ -402,11 +377,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566312491586</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="JD Test,2018.8.24,turboman.">
+      <created>1566660357110</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566660357110</updated>
+    </task>
+    <task id="LOCAL-00012" summary="JD Test,2018.8.24,turboman.">
+      <created>1566709254626</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566709254626</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134612000" />
+    <option name="totallyTimeSpent" value="137257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,7 +410,7 @@
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23423423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24066924" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -435,7 +424,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.29371583" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.2932227" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -495,7 +484,8 @@
     <MESSAGE value="TrendTest,2018.8.9,turboman." />
     <MESSAGE value="LiuLiShuoTest,2018.8.19,turboman." />
     <MESSAGE value="Recursion and backtrack,2018.8.20,turboman." />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion and backtrack,2018.8.20,turboman." />
+    <MESSAGE value="JD Test,2018.8.24,turboman." />
+    <option name="LAST_COMMIT_MESSAGE" value="JD Test,2018.8.24,turboman." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -738,34 +728,6 @@
     <SUITE FILE_PATH="coverage/DataStruAlgo$CodingEveryday.ic" NAME="CodingEveryday Coverage Results" MODIFIED="1566550436200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/getMin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/Expressions2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-805">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/Expressions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/TestArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/TestCatDogQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -1089,17 +1051,41 @@
     <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Idea1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1Improve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P06_MathematicalLaw/CatalanNumber/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Problem201.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P06_MathematicalLaw/CatalanNumber/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
