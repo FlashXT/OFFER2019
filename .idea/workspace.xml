@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0eef9a-0015-4c10-af38-6e1df0bfc458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Main6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem7/Main7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2AC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem1.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="-184">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2AC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -53,17 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/Permutations/P02_Permutations_A.java" />
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/Permutations/P03_Permutations_B.java" />
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/OtherProblem/AdditiveDivision.java" />
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/OtherProblem/P02_LongestCommonSubstring.java" />
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/OtherProblem/P02_LongestCommonSequence.java" />
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/OtherProblem/P03_LongestCommonSubString.java" />
-        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A3_OtherProblem/P03_LongestCommonSubString.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/HeapSort/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P02_InsertSort/P02_InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P03_SelectionSort/P03_SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P04_MergeSort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P04_MergeSort/ReversePair.java" />
         <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P06_QuickSort/FlagOfNetherland.java" />
         <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P07_BucketSort/MaxGap.java" />
@@ -102,16 +108,27 @@
         <option value="$PROJECT_DIR$/src/P06_MathematicalLaw/Test.java" />
         <option value="$PROJECT_DIR$/src/P06_MathematicalLaw/CatalanNumber/Test.java" />
         <option value="$PROJECT_DIR$/src/P06_MathematicalLaw/Test2.java" />
-        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java" />
         <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem1.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Main1.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Main2.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Main3.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Main3.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main1.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main4.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main2.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main1.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java" />
+        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-52" />
-    <option name="y" value="5" />
-    <option name="width" value="1616" />
-    <option name="height" value="757" />
+    <option name="x" value="270" />
+    <option name="y" value="47" />
+    <option name="width" value="1312" />
+    <option name="height" value="847" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,14 +161,14 @@
               <item name="DataStruAlgo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="P05_CompanyCodeExam" type="462c0819:PsiDirectoryNode" />
-              <item name="MeiTuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Tencent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,18 +183,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Test/NetEase" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\IDEAProjects\DataStruAlgo\src\P05_CompanyCodeExam\ByteDance\Problem02" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="P05_CompanyCodeExam.Tencent" />
       <recent name="P05_CompanyCodeExam.MeiTuan" />
       <recent name="P05_CompanyCodeExam.JD.P05Maze" />
       <recent name="P03_Algorithm.A01_Recursion.OtherProblem" />
       <recent name="P03_Algorithm.Recursion.Permutations" />
-      <recent name="Test.HuaWei" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\IDEAProjects\DataStruAlgo\src\P05_CompanyCodeExam\ByteDance\Problem02" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Test/NetEase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,20 +209,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem1">
-    <configuration name="CodingEveryday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingEveryday" />
+  <component name="RunManager" selected="Application.Main2">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.Tencent.Main1" />
       <module name="DataStruAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P05_CompanyCodeExam.Tencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.Tencent.Main2" />
+      <module name="DataStruAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P05_CompanyCodeExam.Tencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.PinDuoDuo.Problem4.Main4" />
+      <module name="DataStruAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P05_CompanyCodeExam.PinDuoDuo.Problem6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.BeiKe.Main5" />
+      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.PinDuoDuo.Problem5.Main5" />
       <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P05_CompanyCodeExam.BeiKe.*" />
+          <option name="PATTERN" value="P05_CompanyCodeExam.PinDuoDuo.Problem6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,25 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.MeiTuan.Problem1" />
+    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.MeiTuan.Problem2" />
       <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="P05_CompanyCodeExam.MeiTuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfLeftLeaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P01_DataStructure.CH5_Tree.BinaryTree.SumOfLeftLeaves" />
-      <module name="DataStruAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P01_DataStructure.CH5_Tree.BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Problem1" />
-        <item itemvalue="Application.TreePath" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.SumOfLeftLeaves" />
-        <item itemvalue="Application.CodingEveryday" />
+        <item itemvalue="Application.Main4" />
+        <item itemvalue="Application.Problem2" />
       </list>
     </recent_temporary>
   </component>
@@ -315,6 +351,8 @@
       <workItem from="1566741508603" duration="2518000" />
       <workItem from="1566831685159" duration="11000" />
       <workItem from="1567252968913" duration="4470000" />
+      <workItem from="1567313438400" duration="11299000" />
+      <workItem from="1567334340704" duration="10942000" />
     </task>
     <task id="LOCAL-00001" summary="NetEase,2018.8.3,turboman.">
       <created>1564823839932</created>
@@ -404,7 +442,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141753000" />
+    <option name="totallyTimeSpent" value="163994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,10 +454,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="0" width="1616" height="873" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23101673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23901808" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -427,8 +464,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43802816" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36197183" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21311475" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44125682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
@@ -437,7 +474,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.6147541" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.4330601" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32945737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Structure" order="2" weight="0.16020672" />
@@ -727,6 +764,60 @@
           <properties />
           <option name="timeStamp" value="209" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -737,112 +828,6 @@
     <SUITE FILE_PATH="coverage/DataStruAlgo$CodingEveryday.ic" NAME="CodingEveryday Coverage Results" MODIFIED="1566550436200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/TestTQMStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/TestTSMQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/TestArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/NowCoder笔试题输入格式.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-727">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH4_Heap/TestComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH4_Heap/PriorityQueue2Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P05_HeapSort/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH4_Heap/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH4_Heap/TestHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-644">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P02_JAVA/Collection/C01_List/TestArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P02_JAVA/Collection/C01_List/TestList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/P02_JAVA/Collection/C02_Stack_Queue/TestStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1064,20 +1049,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/QAX_360/Main1.java" />
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/QAX_360/Main2.java" />
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/QAX_360/Main1.java">
+    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P02_InsertSort/P02_InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="-872">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/QAX_360/Main2.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="426">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#BinarySearch#0;class#Problem2#0" />
+            <element signature="method#getsum#0;class#Problem2#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,6 +1077,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Main6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Problem6_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Problem4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem7/Main7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2AC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
