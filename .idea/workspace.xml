@@ -2,17 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0eef9a-0015-4c10-af38-6e1df0bfc458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Main6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem7/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2AC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/P01_subStrMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P03_Algorithm/A05_Docs/docs/1.递归与回溯.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P03_Algorithm/A05_Docs/pdf/1.递归与回溯.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P03_Algorithm/BitOp/NumberOfOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P03_Algorithm/A04_BitOp/NumberOfOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Problem201.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Problem201.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Problem202.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Problem202.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Problem203.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Problem203.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C00_NowCoder/DataStructure/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C00_NowCoder/DataStructure/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C00_NowCoder/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C00_NowCoder/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C01_HuaWei/HuaWeiTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_HuaWei/HuaWeiTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C01_HuaWei/HuaWeiTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_HuaWei/HuaWeiTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C02_KuaiShou/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_KuaiShou/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C02_KuaiShou/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_KuaiShou/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C02_KuaiShou/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_KuaiShou/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C02_KuaiShou/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_KuaiShou/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/DiDi/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/DiDi/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/DiDi/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/DiDi/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/JDProblem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/JDProblem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Idea1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Idea1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1Improve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Main1Improve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Problem01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Problem01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Problem02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Problem02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/testCase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/testCase.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Problem1R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Problem1R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/UpFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/UpFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/LiuLiShuo/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/LiuLiShuo/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/康托展开.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/康托展开.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/康托展开的逆运算.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/康托展开的逆运算.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NowCoder笔试题输入格式.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NowCoder笔试题输入格式.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem4/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Problem4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem4/Problem4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Problem5_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Problem5_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Problem5_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Problem5_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem6/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Problem6_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem6/Problem6_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Problem6_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem6/Problem6_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem7/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem7/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem7/Problem7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem7/Problem7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ShenXinFu/Problem01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/ShenXinFu/Problem01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2AC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Test360/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/Test360/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Test360/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/Test360/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Problem01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Problem01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Problem02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Problem02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem2/MoneyNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem2/MoneyNums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem2/Problem1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem2/Problem1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem2/Problem2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem2/Problem2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem1/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem1/Problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem1/Problem1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem1/Problem1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem1/Problem1testcase.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem1/Problem1testcase.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem2/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem2/Problem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem2/Problem2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem2/Problem2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem2/Problem2output.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem2/Problem2output.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem3/Problem3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem3/Problem3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem3/Problem31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem3/Problem31.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem3/WordSegmentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem3/WordSegmentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/toutiao/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/toutiao/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/toutiao/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/toutiao/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/toutiao/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/toutiao/Problem2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,19 +110,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java">
+        <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2AC.java">
+        <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="368">
+              <caret line="25" column="20" selection-start-line="24" selection-start-column="16" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,28 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P04_MergeSort/ReversePair.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P06_QuickSort/FlagOfNetherland.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P07_BucketSort/MaxGap.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH2_List/LinkedListPartitation.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH2_List/LinkedListReverse.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH2_List/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/Expressions.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/TestTQMStack.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/TwoQueueStack.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/TwoStackQueue.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH3_StackQueue/TestTSMQueue.java" />
-        <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem3.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH4_Heap/PriorityQueue2Heap.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH4_Heap/Heap.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P05_HeapSort/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH4_Heap/TestComparator.java" />
-        <option value="$PROJECT_DIR$/src/P01_DataStructure/CH4_Heap/TestHeap.java" />
-        <option value="$PROJECT_DIR$/src/P02_JAVA/Collection/C01_Stack.java" />
-        <option value="$PROJECT_DIR$/src/P02_JAVA/Collection/C02_Stack/TestStack.java" />
-        <option value="$PROJECT_DIR$/src/P02_JAVA/Collection/C02_Stack_Queue/TestStack.java" />
-        <option value="$PROJECT_DIR$/src/P02_JAVA/Collection/C02_Stack_Queue/TestQueue.java" />
-        <option value="$PROJECT_DIR$/src/P02_JAVA/Collection/C03_Map/TestTreeMap.java" />
         <option value="$PROJECT_DIR$/src/P02_JAVA/Collection/C05_Set/Set.java" />
         <option value="$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/treeTraverse3.java" />
         <option value="$PROJECT_DIR$/src/CodingEveryday.java" />
@@ -121,13 +188,35 @@
         <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main1.java" />
         <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java" />
         <option value="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/Tencent/Problem1/Main1.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/Tencent/Main201.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/Tencent/Problem2/Main2AC.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/Tencent/Problem2/Main201.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/Tencent/Problem2/Main2_1.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/Tencent/Problem2/Main01.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/Tencent/Problem2/Main1.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/Tencent/Problem2/Main2.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/Tencent/Problem2/Main3.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem3/Main3.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/C00_NowCoder/Input.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem4/Main4.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem3/Main.java" />
+        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A3_OtherProblem/P04_KMP.java" />
+        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A3_OtherProblem/P04_StringPatternMatching/P04_KMP.java" />
+        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/P04_StringPatternMatching/P04_KMP.java" />
+        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/P04_KMP.java" />
+        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/test.java" />
+        <option value="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/P01_subStrMatch.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Main.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Main.java" />
+        <option value="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem2/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="270" />
-    <option name="y" value="47" />
-    <option name="width" value="1312" />
+    <option name="x" value="273" />
+    <option name="y" value="66" />
+    <option name="width" value="1216" />
     <option name="height" value="847" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -138,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,20 +244,35 @@
               <item name="DataStruAlgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStruAlgo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="P05_CompanyCodeExam" type="462c0819:PsiDirectoryNode" />
+              <item name="P05_CodeExam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStruAlgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStruAlgo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="P05_CompanyCodeExam" type="462c0819:PsiDirectoryNode" />
-              <item name="Tencent" type="462c0819:PsiDirectoryNode" />
+              <item name="P05_CodeExam" type="462c0819:PsiDirectoryNode" />
+              <item name="C02_DangDang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStruAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStruAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="P05_CodeExam" type="462c0819:PsiDirectoryNode" />
+              <item name="C02_DangDang" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStruAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStruAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="P05_CodeExam" type="462c0819:PsiDirectoryNode" />
+              <item name="C02_DangDang" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -183,8 +288,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\IDEAProjects\DataStruAlgo\src\P05_CompanyCodeExam\ByteDance\Problem02" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\DataStruAlgo\src\P03_Algorithm\A05_Docs" />
+      <recent name="$PROJECT_DIR$/src/Test/NetEase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="P05_CompanyCodeExam.Tencent" />
@@ -193,8 +299,11 @@
       <recent name="P03_Algorithm.A01_Recursion.OtherProblem" />
       <recent name="P03_Algorithm.Recursion.Permutations" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Test/NetEase" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\DataStruAlgo\src\P03_Algorithm\A05_Docs\docs" />
+      <recent name="E:\IdeaProjects\DataStruAlgo\src\P03_Algorithm\A05_Docs\pdf" />
+      <recent name="E:\IdeaProjects\DataStruAlgo\src\P03_Algorithm\A05_Docs" />
+      <recent name="G:\IDEAProjects\DataStruAlgo\src\P05_CompanyCodeExam\ByteDance\Problem02" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,13 +318,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.Tencent.Main1" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Input" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P05_CodeExam.C00_NowCoder.Input" />
       <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P05_CompanyCodeExam.Tencent.*" />
+          <option name="PATTERN" value="P05_CodeExam.C00_NowCoder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +332,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.Tencent.Main2" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P05_CodeExam.C02_DangDang.Problem2.Main" />
       <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P05_CompanyCodeExam.Tencent.*" />
+          <option name="PATTERN" value="P05_CodeExam.C02_DangDang.Problem2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +345,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.PinDuoDuo.Problem4.Main4" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P05_CodeExam.C02_DangDang.Problem1.Main" />
       <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P05_CompanyCodeExam.PinDuoDuo.Problem6.*" />
+          <option name="PATTERN" value="P05_CodeExam.C02_DangDang.Problem1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,12 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.PinDuoDuo.Problem5.Main5" />
+    <configuration name="P01_subStrMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P03_Algorithm.A01_Recursion.A04_StringPatternMatching.P01_subStrMatch" />
       <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P05_CompanyCodeExam.PinDuoDuo.Problem6.*" />
+          <option name="PATTERN" value="P03_Algorithm.A01_Recursion.A04_StringPatternMatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,25 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P05_CompanyCodeExam.MeiTuan.Problem2" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P03_Algorithm.A01_Recursion.A04_StringPatternMatching.test" />
       <module name="DataStruAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P05_CompanyCodeExam.MeiTuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P01_DataStructure.CH5_Tree.BinaryTree.TreePath" />
-      <module name="DataStruAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P01_DataStructure.CH5_Tree.BinaryTree.*" />
+          <option name="PATTERN" value="P03_Algorithm.A01_Recursion.A04_StringPatternMatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,11 +386,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.Main4" />
-        <item itemvalue="Application.Problem2" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.P01_subStrMatch" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Input" />
       </list>
     </recent_temporary>
   </component>
@@ -353,6 +449,12 @@
       <workItem from="1567252968913" duration="4470000" />
       <workItem from="1567313438400" duration="11299000" />
       <workItem from="1567334340704" duration="10942000" />
+      <workItem from="1567390766525" duration="11000" />
+      <workItem from="1567390904245" duration="18544000" />
+      <workItem from="1567423938346" duration="61000" />
+      <workItem from="1567424019486" duration="319000" />
+      <workItem from="1567424619522" duration="883000" />
+      <workItem from="1567425869419" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="NetEase,2018.8.3,turboman.">
       <created>1564823839932</created>
@@ -442,7 +544,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163994000" />
+    <option name="totallyTimeSpent" value="184413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,7 +558,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23901808" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2629199" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -464,8 +566,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21311475" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44125682" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21448088" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3374317" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
@@ -488,7 +590,7 @@
       <window_info anchor="right" id="Database" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.060723513" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25904393" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -496,17 +598,17 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23224044" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36065573" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21448088" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3374317" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.29371583" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.2932227" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.6147541" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.4330601" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32945737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Structure" order="2" weight="0.16020672" />
@@ -537,61 +639,61 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/Main1.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/NetEase/Main1.java</url>
           <line>34</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/Main1.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/NetEase/Main1.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Adder.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Adder.java</url>
           <line>59</line>
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Adder.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Adder.java</url>
           <line>71</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Adder.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Adder.java</url>
           <line>86</line>
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Adder.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Adder.java</url>
           <line>85</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Adder.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Adder.java</url>
           <line>73</line>
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem2/MoneyNums.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem2/MoneyNums.java</url>
           <line>50</line>
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main1.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main1.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/LiuLiShuo/Problem.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/LiuLiShuo/Problem.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="82" />
@@ -717,106 +819,112 @@
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java</url>
           <line>52</line>
           <properties />
           <option name="timeStamp" value="197" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java</url>
           <line>48</line>
           <properties />
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java</url>
           <line>32</line>
           <properties />
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java</url>
           <line>33</line>
           <properties />
           <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java</url>
           <line>38</line>
           <properties />
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java</url>
           <line>39</line>
           <properties />
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java</url>
           <line>43</line>
           <properties />
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java</url>
           <line>44</line>
           <properties />
           <option name="timeStamp" value="209" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem2.java</url>
           <line>24</line>
           <properties />
           <option name="timeStamp" value="212" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem2.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem2.java</url>
           <line>27</line>
           <properties />
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Main5.java</url>
           <line>30</line>
           <properties />
           <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Main5.java</url>
           <line>24</line>
           <properties />
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Main5.java</url>
           <line>25</line>
           <properties />
           <option name="timeStamp" value="237" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Main5.java</url>
           <line>34</line>
           <properties />
           <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java</url>
+          <url>file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Main5.java</url>
           <line>38</line>
           <properties />
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java</url>
-          <line>2</line>
+          <url>file://$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/test.java</url>
+          <line>23</line>
           <properties />
-          <option name="timeStamp" value="264" />
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/test.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="279" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -828,115 +936,7 @@
     <SUITE FILE_PATH="coverage/DataStruAlgo$CodingEveryday.ic" NAME="CodingEveryday Coverage Results" MODIFIED="1566550436200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/P02_JAVA/Collection/C02_Stack_Queue/TestStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P02_JAVA/Collection/C02_Stack_Queue/TestQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P02_JAVA/Collection/C03_Map/TestHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P02_JAVA/Collection/C03_Map/TestTreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P02_JAVA/Collection/C05_Set/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P02_JAVA/Collection/C04_Heap/TestHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/treeTraverse2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/treeTraverse3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/treeTraverse1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="193" column="22" lean-forward="true" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingEveryday.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#preTraverse#0;class#CodingEveryday#0" />
-            <element signature="method#midTraverse#0;class#CodingEveryday#0" />
-            <element signature="method#levelTraverse#0;class#CodingEveryday#0" />
-            <element signature="method#levelTraverse#1;class#CodingEveryday#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/NodeCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/SearchNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/isSameTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/SumOfLeftLeaves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
@@ -981,10 +981,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Problem01.jpg">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Problem01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Problem02.jpg">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Problem02.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/LowestCommonAncestor/LCABST01.java">
@@ -1001,24 +1001,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/testCase.txt">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/testCase.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Idea1.jpg">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Idea1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1Improve.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Main1Improve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
@@ -1032,7 +1032,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Problem201.jpg">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Problem201.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/P06_MathematicalLaw/CatalanNumber/Test2.java">
@@ -1042,7 +1042,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -1051,7 +1051,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/QAX_360/Main1.java" />
     <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/QAX_360/Main2.java" />
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.jpg">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH1_Sort/P02_InsertSort/P02_InsertSort.java">
@@ -1061,7 +1061,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
@@ -1073,62 +1073,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem1.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Main6.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem6/Main6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Problem6_1.jpg">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem6/Problem6_1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Problem4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem7/Main7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main4.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem4/Main4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Main5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
@@ -1138,34 +1108,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main1.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem1/Problem1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="168">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/Tencent/Main3.java" />
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Problem2_02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Problem2_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="345">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="21">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2AC.java">
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem3/Problem3_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C00_NowCoder/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem4/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem4/Problem4_03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem4/Problem4_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem4/Problem4_02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem7/Main7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem4/Problem4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/P01_subStrMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="20" selection-start-line="24" selection-start-column="16" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
