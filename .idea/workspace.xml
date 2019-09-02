@@ -2,100 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0eef9a-0015-4c10-af38-6e1df0bfc458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/P01_subStrMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P03_Algorithm/A01_Recursion/A04_StringPatternMatching/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P03_Algorithm/A05_Docs/docs/1.递归与回溯.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P03_Algorithm/A05_Docs/pdf/1.递归与回溯.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P03_Algorithm/BitOp/NumberOfOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P03_Algorithm/A04_BitOp/NumberOfOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/BeiKe/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Problem201.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Problem201.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Problem202.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Problem202.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem02/Problem203.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem02/Problem203.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ByteDance/Problem2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_ByteDance/Problem2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C00_NowCoder/DataStructure/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C00_NowCoder/DataStructure/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C00_NowCoder/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C00_NowCoder/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C01_HuaWei/HuaWeiTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_HuaWei/HuaWeiTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C01_HuaWei/HuaWeiTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_HuaWei/HuaWeiTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C02_KuaiShou/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_KuaiShou/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C02_KuaiShou/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_KuaiShou/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C02_KuaiShou/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_KuaiShou/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/C02_KuaiShou/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C03_KuaiShou/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/DiDi/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/DiDi/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/DiDi/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/DiDi/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/JDProblem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/JDProblem1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Idea1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Idea1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Main1Improve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Main1Improve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Problem01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Problem01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/Problem02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/Problem02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/P05Maze/testCase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/P05Maze/testCase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Problem1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Problem1R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Problem1R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/JD/UpFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/JD/UpFloor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/LiuLiShuo/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/LiuLiShuo/Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/MeiTuan/Problem2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/MeiTuan/Problem2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/康托展开.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/康托展开.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NetEase/康托展开的逆运算.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NetEase/康托展开的逆运算.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/NowCoder笔试题输入格式.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/NowCoder笔试题输入格式.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem4/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem4/Problem4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem4/Problem4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Problem5_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Problem5_01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem5/Problem5_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem5/Problem5_02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem6/Main6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Problem6_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem6/Problem6_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem6/Problem6_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem6/Problem6_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem7/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem7/Main7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/PinDuoDuo/Problem7/Problem7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_PinDuoDuo/Problem7/Problem7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/ShenXinFu/Problem01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/ShenXinFu/Problem01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main2AC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Tencent/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C01_Tencent/Problem2/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Test360/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/Test360/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/Test360/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/Test360/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Problem01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Problem01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem1/Problem02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem1/Problem02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem2/MoneyNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem2/MoneyNums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem2/Problem1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem2/Problem1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/TrendTest/Problem2/Problem2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/TrendTest/Problem2/Problem2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem1/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem1/Problem1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem1/Problem1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem1/Problem1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem1/Problem1testcase.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem1/Problem1testcase.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem2/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem2/Problem2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem2/Problem2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem2/Problem2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem2/Problem2output.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem2/Problem2output.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem3/Problem3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem3/Problem3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem3/Problem31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem3/Problem31.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/XieCheng/Problem3/WordSegmentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/XieCheng/Problem3/WordSegmentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/toutiao/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/toutiao/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/toutiao/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/toutiao/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P05_CompanyCodeExam/toutiao/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/toutiao/Problem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem2/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="211">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,13 +33,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="25" column="20" selection-start-line="24" selection-start-column="16" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="253">
+              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Problem1.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -228,6 +142,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,7 +188,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Input" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P05_CodeExam.C00_NowCoder.Input" />
       <module name="DataStruAlgo" />
@@ -386,8 +300,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.P01_subStrMatch" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Input" />
@@ -455,6 +369,7 @@
       <workItem from="1567424019486" duration="319000" />
       <workItem from="1567424619522" duration="883000" />
       <workItem from="1567425869419" duration="601000" />
+      <workItem from="1567437827084" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="NetEase,2018.8.3,turboman.">
       <created>1564823839932</created>
@@ -544,7 +459,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184413000" />
+    <option name="totallyTimeSpent" value="184912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,8 +472,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2629199" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26640928" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -566,7 +482,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21448088" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21438451" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3374317" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -936,16 +852,6 @@
     <SUITE FILE_PATH="coverage/DataStruAlgo$CodingEveryday.ic" NAME="CodingEveryday Coverage Results" MODIFIED="1566550436200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C04_BeiKe/Main5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/P01_DataStructure/CH5_Tree/BinaryTree/TreeDepth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1220,10 +1126,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Problem1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="211">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1232,8 +1141,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/P05_CodeExam/C02_DangDang/Problem2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="20" selection-start-line="24" selection-start-column="16" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="253">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

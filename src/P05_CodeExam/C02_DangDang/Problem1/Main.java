@@ -11,6 +11,9 @@ import java.util.Scanner;
  * @Version 1.0
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
+/*
+ *25525511135
+ */
 public class Main {
     static List<String> ans = new ArrayList<>();
     public static void main(String [] args){
@@ -31,9 +34,9 @@ public class Main {
                 res = res.substring(0,res.length()-1);
                 ans.add(res);
             }
-
             return ;
         }
+        //每一段最多3个数字，若该段以0开头，只能是一个数字
         int last = Math.min(3,s.length());
         if(last > 0 && s.charAt(0) == '0')
             last = 1;

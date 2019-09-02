@@ -16,20 +16,19 @@ public class Main {
         sortColors(strarr);
     }
     public static void sortColors(String [] nums) {
-        if(nums.length <= 1) return ;
+        if(nums.length <= 1) {
+            System.out.println(nums[0]);
+            return ;
+        }
         int left = -1;
         int right = nums.length;
 
         for(int i = 0; i< right;i++){
-            if(Integer.valueOf(nums[i]) > 1){
-                swap(nums,i,--right);
-                i--;
-            }
-
+            if(Integer.valueOf(nums[i]) > 1)
+                swap(nums,i--,--right);
 
             else if(Integer.valueOf(nums[i]) < 1)
                 swap(nums,i,++left);
-
         }
 
         int k = 0;
