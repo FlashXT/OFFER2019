@@ -65,7 +65,6 @@ public class TSP {
                 visited[i] = false;
             }
 
-
         }
     }
     public static boolean AllVisited(boolean [] visited){
