@@ -34,7 +34,7 @@ public class P01_BubbleSort {
     public static void BubbleSort(int [] arr){
         if(arr == null || arr.length < 2) return ;
 
-        for(int i = 1; i < arr.length; i ++){
+        for(int i = 1; i < arr.length; i++){
             for(int j = 0; j < arr.length - i ;j++){
                 if (arr[j] > arr[j+1]){
                     swap(arr,j,j+1);
