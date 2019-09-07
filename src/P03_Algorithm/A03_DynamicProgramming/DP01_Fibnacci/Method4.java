@@ -6,6 +6,8 @@ public class Method4 {
 
         long temp0 = 0;
         long temp1 = 1;
+        if(n == 0 ) return temp0;
+        if(n == 1 ) return temp1;
         long temp2 = temp0+temp1;
         for(int i = 2;i <= n;i++){
             temp2 = temp1+temp0;

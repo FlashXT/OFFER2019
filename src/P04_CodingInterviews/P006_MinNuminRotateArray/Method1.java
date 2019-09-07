@@ -37,7 +37,6 @@ public class Method1 {
                 mid = end;
                 break;
             }
-
             mid = start + (end - start)/2;
             //②对应于重复值的情况
             if(array[mid] == array[start] && array[start] == array[end]){

@@ -14,7 +14,7 @@ package P04_CodingInterviews.P006_MinNuminRotateArray;
  */
 public class Main {
     public static void main(String [] args){
-        int [] nums = {1,0,1,1,1,1,1};
-        new Method1().minNumberInRotateArray(nums);
+        int [] nums = {1,0,1,1,1};
+        new Method3().minNumberInRotateArray(nums);
     }
 }
