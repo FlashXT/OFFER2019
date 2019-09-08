@@ -1,16 +1,13 @@
-package P04_CodingInterviews.P020_IsPopOrder;
+package P05_CodeExam.C07_ByteDance.Problem01;
 
 /*****************************************************************
  * @Author:FlashXT;
- * @Date:2019/9/8,11:23
+ * @Date: 2019/8/25 22:41
  * @Version 1.0
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
 public class Main {
-    public static void main(String [ ]agrs){
-        int [] pushA = {1};
-        int [] popA = {4};
-        System.out.println(new Method1().IsPopOrder(pushA,popA));
+    public static void main(String [] args){
 
     }
 }

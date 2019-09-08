@@ -13,23 +13,21 @@ public class Method1 {
         if(pushA.length == 0 && popA.length == 0) return true;
         if(pushA.length != popA.length) return false;
         Stack<Integer> stack = new Stack<>();
-        int j = 0;
+        int pushindex = 0;
         for(int i = 0; i < popA.length;i++){
-            if(!stack.isEmpty() && popA[i] == stack.peek())
+            if(!stack.isEmpty() && stack.peek() == popA[i]){
                 stack.pop();
-            else{
-                while( j < pushA.length){
-                    if(pushA[j] == popA[i]){
-                        break;
-                    }
-                    stack.push(pushA[j]);
-                    j++;
+
+            }else{
+
+                while(stack.isEmpty()|| stack.peek()!=popA[i]){
+                    if(pushindex >= pushA.length)return false;
+                    stack.push(pushA[pushindex++]);
                 }
-                if(j == pushA.length)
-                    return false;
-                j++;
+                stack.pop();
             }
+
         }
-        return true;
+        return stack.isEmpty();
     }
 }
