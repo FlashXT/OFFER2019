@@ -15,7 +15,6 @@ import java.util.Arrays;
  *******************************************************************************/
 public class QuickSort2 {
 
-
     public static void main(String [] args){
         int [] arr = {12,10,38,42,75,68,54,9,40};
         Quicksort2(arr,0,arr.length-1);

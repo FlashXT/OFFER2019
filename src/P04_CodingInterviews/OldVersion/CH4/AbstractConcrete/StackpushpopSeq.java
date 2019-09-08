@@ -3,7 +3,7 @@ package P04_CodingInterviews.OldVersion.CH4.AbstractConcrete;
 import java.util.Stack;
 
 /****************************************************
- * 给出入栈和出战序列，判定出栈序列和入栈序列是否相对应
+ * 给出入栈和出栈序列，判定出栈序列和入栈序列是否相对应
  ****************************************************/
 public class StackpushpopSeq {
     public static void main(String [] args){
