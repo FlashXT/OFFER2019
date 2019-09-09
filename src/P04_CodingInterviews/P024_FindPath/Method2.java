@@ -12,12 +12,13 @@ import java.util.Comparator;
  * @Version 1.0
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
-public class Method1 {
+public class Method2 {
 
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
         ArrayList<ArrayList<Integer>> paths = new ArrayList<>();
         if(root == null) return paths;
         ArrayList<Integer> path = new ArrayList<>();
+
         FindPath(root,target,path,paths);
         Collections.sort(paths, new Comparator<ArrayList<Integer>>() {
             @Override
@@ -29,19 +30,16 @@ public class Method1 {
         return paths;
     }
     public void FindPath(TreeNode root, int target,ArrayList<Integer> path,ArrayList<ArrayList<Integer>> paths) {
-
-        if(root == null ) return ;
-        if(root.left == null && root.right == null){
-            if(target == 0){
-                path.add(root.val);
-                paths.add(new ArrayList<>(path));
-                path.remove((Integer)root.val);
-            }
-            return ;
-        }
+        target -= root.val;
         path.add(root.val);
-        FindPath(root.left,target- root.val,path,paths);
-        FindPath(root.right,target-root.val,path,paths);
+        if(root.left == null && root.right == null && target == 0){
+            paths.add(new ArrayList<>(path));
+        }
+        if(root.left != null)
+            FindPath(root.left,target,path,paths);
+        if(root.right != null)
+            FindPath(root.right,target,path,paths);
+
         path.remove((Integer) root.val);
     }
 }
