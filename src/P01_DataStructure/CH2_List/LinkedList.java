@@ -104,17 +104,15 @@ public class LinkedList<Item>  implements Iterable<Item>{
         if( head  == null || head.next.next == null) return head;
         Node pNpre = null;
         Node pNode = head;
-        Node Rhead = null;
+        Node pNext = null;
         while(pNode != null){
-            Node pNext = pNode.next;
-            if(pNext == null)
-                Rhead = pNode;
+            pNext = pNode.next;
             pNode.next = pNpre;
             pNpre = pNode;
             pNode = pNext;
 
         }
-        return Rhead;
+        return pNpre;
     }
 
 
