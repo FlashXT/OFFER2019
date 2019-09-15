@@ -1,5 +1,5 @@
 public class HuaWeiTest {
-    public class Main {
+    public class P06_AuditionCoding.Main {
         public static void main(String[] args) {
             Scanner in = new Scanner(System.in);
             //输入整数,如果输入是多个测试用例，请通过while循环处理多个测试用例

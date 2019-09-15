@@ -18,16 +18,16 @@ public class GraphTraverse {
         System.out.println(BFS.BFS(sg));
 //        System.out.println(sg.edgenum);
         System.out.println(DFS.DFSTraverseNR(sg));
-//        System.out.println(DFS.DFSTraverse(sg));
+//        System.out.println(Solution1_DFS.DFSTraverse(sg));
         //建立稠密图
 //        DenseGraph dg = new DenseGraph(filepath);
 //        dg.Print();
-//        System.out.println(DFS.DFSTraverseNR(dg));
+//        System.out.println(Solution1_DFS.DFSTraverseNR(dg));
 //        System.out.println(dg.edgenum);
-//        System.out.println(DFS.DFSTraverse(dg));
+//        System.out.println(Solution1_DFS.DFSTraverse(dg));
         //寻找路径
 //        FindPath.FindPath(dg,1,7);
-//        BFS.BFS(dg);
+//        Solution2_BFS.Solution2_BFS(dg);
     }
 
 }

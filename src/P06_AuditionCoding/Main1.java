@@ -1,4 +1,4 @@
-package P04_CodingInterviews;
+package P06_AuditionCoding;
 
 import P04_CodingInterviews.HelpClass.Tree;
 import P04_CodingInterviews.HelpClass.TreeNode;
@@ -13,7 +13,7 @@ import java.util.Queue;
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
 //二叉树的右视图
-public class Main1 {
+public class Main1{
     public static void main(String [] args){
         int [] nums = {1,2,3,4,-1,-1,-1,5,6};
         TreeNode root = new Tree().BulidTree(nums);

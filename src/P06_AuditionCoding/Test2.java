@@ -1,4 +1,4 @@
-package P06_MathematicalLaw.CatalanNumber;
+package P06_AuditionCoding;
 
 /*****************************************************************
  * @Author:FlashXT;

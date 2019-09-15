@@ -1,3 +1,4 @@
+package P06_AuditionCoding;
 
 public class TestClass {
     public static void main(String [] args){
