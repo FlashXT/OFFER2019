@@ -41,7 +41,7 @@ public class BIGO {
             }
 
 
-        public static void minpath(int [][] arr,int row,int col,int path){
+        public static void minpath(int [][] arr,int row,int col,int path){。
             if(row == arr.length || col == arr[0].length) return;
             if(row == arr.length-1 && col == arr[0].length-1){
                 minpath = minpath > path? path:minpath;

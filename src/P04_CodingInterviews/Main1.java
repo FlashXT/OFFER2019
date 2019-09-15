@@ -12,6 +12,7 @@ import java.util.Queue;
  * @Version 1.0
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
+//二叉树的右视图
 public class Main1 {
     public static void main(String [] args){
         int [] nums = {1,2,3,4,-1,-1,-1,5,6};
