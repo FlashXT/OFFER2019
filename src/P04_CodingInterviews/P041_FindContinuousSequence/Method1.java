@@ -35,7 +35,7 @@ public class Method1 {
         }
         Iterator<ArrayList<Integer>> iter = res.iterator();
         while(iter.hasNext())
-            System.out.print(Arrays.toString(iter.next().toArray()));
+            System.out.println(Arrays.toString(iter.next().toArray()));
        return res;
     }
 }
