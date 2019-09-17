@@ -10,22 +10,14 @@ import java.util.List;
  * @Version 1.0
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
-public class Method2 {
+//https://www.nowcoder.com/questionTerminal/11b018d042444d4d9ca4914c7b84a968
+public class Method3 {
     public int LastRemaining(int n, int m) {
-        if(n <= 0) return -1;
-        List<Integer> list = new LinkedList<Integer>();
-        for(int i = 0; i<n;i++){
-            list.add(i);
-        }
-        int index = 0;
-        while(list.size()!=1){
-
-            index = (index+m-1)%list.size();
-            int k = list.remove(index);
-            //System.out.println(k);
-
-
-        }
-        return list.get(0);
+      if(n <1 || m <1)return -1;
+      int last = 0;
+      for(int i = 2; i <=n;i++){
+          last = (last+m)%i;
+      }
+      return last;
     }
 }

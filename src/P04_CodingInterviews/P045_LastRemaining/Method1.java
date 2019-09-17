@@ -23,7 +23,8 @@ public class Method1 {
             count++;
             index = (index+1)%list.size();
             if(count == m-1){
-                list.remove(index);
+                int k = list.remove(index);
+                System.out.println(k);
                 count=0;
             }
         }

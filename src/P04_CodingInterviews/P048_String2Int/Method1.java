@@ -1,14 +1,11 @@
-package P04_CodingInterviews.P045_LastRemaining;
+package P04_CodingInterviews.P048_String2Int;
 
 /*****************************************************************
  * @Author:FlashXT;
- * @Date:2019/9/16,21:03
+ * @Date: 2019/9/17 7:48
  * @Version 1.0
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
-//约瑟夫环问题
-public class Main {
-    public static void main(String [] args){
-        new Method2().LastRemaining(10,3);
-    }
+public class Method1 {
+
 }
