@@ -11,15 +11,24 @@ import P04_CodingInterviews.OldVersion.CH2.List;
  *****************************************************************/
 public class Method1 {
     public ListNode deleteDuplication(ListNode pHead){
+        if(pHead == null) return pHead;
         ListNode dummy = new ListNode(-1);
-        dummy.next = pHead;
-        ListNode ptr = pHead,ptr2 = pHead,tail = pHead;
+
+        ListNode tail = dummy;
+        ListNode ptr = pHead,ptr2 = pHead;
         while(ptr!=null){
             ptr2 = ptr;
-            while(ptr.val == ptr2.val){
+            ptr = ptr.next;
+            while(ptr!=null &&ptr.val == ptr2.val){
                 ptr = ptr.next;
+            }
+            if(ptr2.next == ptr){
+                tail.next = ptr2;
+                tail = tail.next;
             }
 
         }
+        tail.next=null;
+        return dummy.next;
     }
 }
