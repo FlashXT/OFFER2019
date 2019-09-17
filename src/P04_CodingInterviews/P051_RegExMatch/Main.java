@@ -1,14 +1,15 @@
-package P04_CodingInterviews.P048_String2Int;
+package P04_CodingInterviews.P051_RegExMatch;
 
 /*****************************************************************
  * @Author:FlashXT;
- * @Date: 2019/9/17 7:48
+ * @Date:2019/9/17,21:02
  * @Version 1.0
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
 public class Main {
-    public static void main(String [] args){
-        int res = new Method1().StrToInt("-2147483648");
-        System.out.println(res);
+    public static void main(String [ ] args){
+
+        boolean res = new Method1().match("".toCharArray(),".".toCharArray());
+        System.out.print(res);
     }
 }

@@ -43,7 +43,7 @@ public class LinkListCircle {
     }
 
     public static Node getLoopNode(LinkedList list){
-
+        if(list.head == null || list.head.next==null) return null;
         Node ptr1 = list.head; //慢指针，步长为1
         Node ptr2 = list.head; //快指针，步长为2
         while(ptr2 != null && ptr2.next != null){
