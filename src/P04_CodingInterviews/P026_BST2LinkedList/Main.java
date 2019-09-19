@@ -12,7 +12,7 @@ import P04_CodingInterviews.HelpClass.TreeNode;
 public class Main {
     public static void main(String [] args){
         int [] nums = {1,2,3,4,5,6,7};
-        TreeNode root = new Tree().BulidTree(nums);
+        TreeNode root = new Tree(nums).root;
         TreeNode head = new Method1().Convert(root);
         System.out.print(head.val);
     }

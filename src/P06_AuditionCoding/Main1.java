@@ -16,7 +16,7 @@ import java.util.Queue;
 public class Main1{
     public static void main(String [] args){
         int [] nums = {1,2,3,4,-1,-1,-1,5,6};
-        TreeNode root = new Tree().BulidTree(nums);
+        TreeNode root = new Tree(nums).root;
         LevelTraversal(root);
     }
     public static void LevelTraversal(TreeNode root){

@@ -16,12 +16,12 @@ public class Main {
     public static void main(String [] args){
         int [] arr1 = {8,8,7,9,2,-1,-1,-1,-1,4,7};
         int [] arr2 = {8,9,2};
-        TreeNode root1 = new Tree().BulidTree(arr1);
-        TreeNode root2 = new Tree().BulidTree(arr2);
-        new Tree().preTraversal(root1);
+        Tree tree1 = new Tree(arr1);
+        Tree tree2 = new Tree(arr2);
+        tree1.preTraversal();
         System.out.println();
-        new Tree().preTraversal(root2);
-        boolean res = new Method1().HasSubtree(root1,root2);
+        tree2.preTraversal();
+        boolean res = new Method1().HasSubtree(tree1.root,tree2.root);
         System.out.println(res);
 
 
