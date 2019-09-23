@@ -19,7 +19,7 @@ public class MinCostPath {
                 {6,8,4,3}
         };
 
-//        System.out.println(Method1.minpath);
+//        System.out.println(Method2.minpath);
 
         System.out.println(Method1.MinCostPath(arr));
         System.out.println(Method2.MinCostPath(arr));

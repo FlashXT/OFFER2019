@@ -14,7 +14,7 @@ package P04_CodingInterviews.P013_ReOrderArray;
 public class Main {
     public static  void main(String [ ]args){
         int [] arr = {1,2,3,4,10,6,7,8};
-//        new Method1().reOrderArray(arr);
+//        new Method2().reOrderArray(arr);
         new Method2().reOrderArray(arr);
     }
 }

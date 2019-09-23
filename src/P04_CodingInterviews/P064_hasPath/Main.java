@@ -8,6 +8,11 @@ package P04_CodingInterviews.P064_hasPath;
  *****************************************************************/
 public class Main {
     public static  void main(String []args){
+        char [] matrix = "ABCESFCSADEE".toCharArray();
+        int rows = 3,cols = 4;
+        char [] str = "ABCCED".toCharArray();
+        boolean res = new Method3().hasPath(matrix,rows,cols,str);
+        System.out.println(res);
 
     }
 }
