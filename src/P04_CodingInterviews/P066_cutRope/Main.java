@@ -7,4 +7,8 @@ package P04_CodingInterviews.P066_cutRope;
  * CopyRight © 2018-2020,FlashXT & turboMan . All Right Reserved.
  *****************************************************************/
 public class Main {
+    public static  void main(String [] args){
+        int res = new Method1().cutRope(8);
+        System.out.println(res);
+    }
 }
